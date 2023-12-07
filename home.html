@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="images/do.png" type="image/x-icon">
+    <title>NINE FASHION</title>
+    <script src="mediascreen.js" defer></script>
+    <script src="main.js" defer></script>
+    <script src="details.js" defer></script>
+    <script src="https://kit.fontawesome.com/9def338393.js" crossorigin="anonymous" defer></script>
+</head>
+<body>
+
+    <!-- header -->
+   <div class="header">
+
+  <div class="main-container">
+      <!-- navbar -->
+    <nav class="navbar">
+        <!-- company logo for larger screens -->
+        <div class="logo"><a href="home.html">NINE FASHION</a></div>
+        <!-- company logo for smaller screens -->
+        <div class="logo-sec"><a href="home.html">9FASHION</a></div>
+
+
+        <!-- middle bar for both large and small screens -->
+        <ul id="middle-bar">
+            <li><a href="home.html" id="menu-bar">HOME</a></li>
+            <li><a href="male.html" id="menu-bar">MALE</a></li>
+            <li><a href="female.html" id="menu-bar">FEMALE</a></li>
+            <li><a href="accessories.html" id="menu-bar">ACCESSORIES</a></li>
+            <li><a href="911.html" id="menu-bar">911</a></li>
+            <span><a href="proposal.html" id="last-menu">PROPOSAL REQUEST</a></span>
+        </ul>
+
+       
+       <!--left side bar -->
+        <ul id="side-bar">
+            <!-- search -->
+            <li id="search-icon"><a href="search.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="23" viewBox="0 0 24 23" fill="none">
+                <path d="M19.9119 18.4862L16.6536 15.2375C17.7048 13.8982 18.2753 12.2443 18.2732 10.5417C18.2732 9.02534 17.8235 7.54307 16.9811 6.28229C16.1387 5.02152 14.9413 4.03886 13.5404 3.45859C12.1395 2.87832 10.598 2.72649 9.1108 3.02231C7.62361 3.31813 6.25754 4.04831 5.18534 5.12051C4.11313 6.19272 3.38296 7.55879 3.08714 9.04597C2.79132 10.5332 2.94314 12.0747 3.52341 13.4756C4.10368 14.8765 5.08634 16.0738 6.34712 16.9163C7.60789 17.7587 9.09017 18.2083 10.6065 18.2083C12.3091 18.2105 13.963 17.64 15.3023 16.5887L18.5511 19.8471C18.6402 19.9369 18.7462 20.0082 18.8629 20.0569C18.9797 20.1055 19.105 20.1306 19.2315 20.1306C19.358 20.1306 19.4833 20.1055 19.6 20.0569C19.7168 20.0082 19.8228 19.9369 19.9119 19.8471C20.0017 19.758 20.073 19.652 20.1217 19.5352C20.1703 19.4184 20.1954 19.2932 20.1954 19.1667C20.1954 19.0402 20.1703 18.9149 20.1217 18.7981C20.073 18.6813 20.0017 18.5753 19.9119 18.4862ZM4.85649 10.5417C4.85649 9.40442 5.19372 8.29272 5.82554 7.34714C6.45736 6.40156 7.35538 5.66456 8.40606 5.22936C9.45673 4.79416 10.6129 4.68029 11.7283 4.90215C12.8436 5.12402 13.8682 5.67165 14.6724 6.4758C15.4765 7.27995 16.0241 8.30451 16.246 9.4199C16.4679 10.5353 16.354 11.6914 15.9188 12.7421C15.4836 13.7928 14.7466 14.6908 13.801 15.3226C12.8554 15.9544 11.7437 16.2917 10.6065 16.2917C9.08149 16.2917 7.61896 15.6859 6.54063 14.6075C5.46229 13.5292 4.85649 12.0667 4.85649 10.5417Z" fill="#C470ED"/>
+              </svg></a></li>
+
+              <!--user   -->
+            <li id="user-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                <path d="M20.0648 21.5V19.5C20.0648 18.4391 19.6434 17.4217 18.8932 16.6716C18.1431 15.9214 17.1257 15.5 16.0648 15.5H8.06482C7.00395 15.5 5.98654 15.9214 5.23639 16.6716C4.48625 17.4217 4.06482 18.4391 4.06482 19.5V21.5" stroke="#C470ED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12.0648 11.5C14.274 11.5 16.0648 9.70914 16.0648 7.5C16.0648 5.29086 14.274 3.5 12.0648 3.5C9.85568 3.5 8.06482 5.29086 8.06482 7.5C8.06482 9.70914 9.85568 11.5 12.0648 11.5Z" stroke="#C470ED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg> 
+             <div class="user-account">
+                <div class="login-up">
+                    <p id="log-space"><a id="login" href="/">Login</a></p>
+                    <p id="sign-space"><a id="sign-up" href="/">sign up</a></p>
+                </div>
+                <a href="/" id="my-acct"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21" stroke="#C470ED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z" stroke="#C470ED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg> &nbsp;<p> My Account</p></a>
+                  <a href="/" id="log-out"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="22" viewBox="0 0 26 22" fill="none">
+                    <path d="M9.42857 0V3.14286H22V18.8571H9.42857V22H25.1429V0H9.42857ZM6.28571 6.28571L0 11L6.28571 15.7143V12.5714H18.8571V9.42857H6.28571V6.28571Z" fill="#C470ED"/>
+                  </svg> &nbsp; <p>Log out</p></a>
+             </div>
+            </li>
+
+            <!-- carting  -->
+            <li id="cart-icon"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="25" viewBox="0 0 26 25" fill="none">
+                <path d="M22.0232 7.29164C21.8432 6.97979 21.5855 6.7199 21.2751 6.53734C20.9648 6.35478 20.6124 6.25577 20.2524 6.24997H6.91903L6.31486 3.89581C6.25382 3.66856 6.11763 3.46867 5.92848 3.32869C5.73933 3.18872 5.50836 3.11692 5.27319 3.12497H3.18986C2.91359 3.12497 2.64864 3.23472 2.45329 3.43007C2.25794 3.62542 2.14819 3.89037 2.14819 4.16664C2.14819 4.44291 2.25794 4.70786 2.45329 4.90321C2.64864 5.09856 2.91359 5.20831 3.18986 5.20831H4.48153L7.35653 15.8958C7.41757 16.1231 7.55375 16.3229 7.7429 16.4629C7.93205 16.6029 8.16302 16.6747 8.39819 16.6666H17.7732C17.9656 16.6661 18.154 16.6122 18.3176 16.5111C18.4813 16.41 18.6137 16.2655 18.7003 16.0937L22.1169 9.26039C22.265 8.94999 22.334 8.60775 22.3176 8.26423C22.3013 7.9207 22.2001 7.58657 22.0232 7.29164ZM17.1274 14.5833H9.18986L7.49194 8.33331H20.2524L17.1274 14.5833Z" fill="#C470ED"/>
+                <path d="M7.87732 21.875C8.74026 21.875 9.43982 21.1754 9.43982 20.3125C9.43982 19.4496 8.74026 18.75 7.87732 18.75C7.01437 18.75 6.31482 19.4496 6.31482 20.3125C6.31482 21.1754 7.01437 21.875 7.87732 21.875Z" fill="#C470ED"/>
+                <path d="M18.2939 21.875C19.1569 21.875 19.8564 21.1754 19.8564 20.3125C19.8564 19.4496 19.1569 18.75 18.2939 18.75C17.431 18.75 16.7314 19.4496 16.7314 20.3125C16.7314 21.1754 17.431 21.875 18.2939 21.875Z" fill="#C470ED"/>
+              </svg>
+              <span class="carted-amount"></span>
+              <div class="user-order">
+                <a href="cart-history.html" id="item-cart"><div class="in-cart"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" viewBox="0 0 25 26" fill="none">
+                    <path d="M21.9584 7.79167C21.7784 7.47981 21.5206 7.21993 21.2103 7.03737C20.8999 6.85481 20.5476 6.7558 20.1875 6.75H6.85421L6.25004 4.39583C6.189 4.16858 6.05281 3.96869 5.86366 3.82872C5.67451 3.68875 5.44354 3.61695 5.20837 3.625H3.12504C2.84877 3.625 2.58382 3.73475 2.38847 3.9301C2.19312 4.12545 2.08337 4.3904 2.08337 4.66667C2.08337 4.94293 2.19312 5.20789 2.38847 5.40324C2.58382 5.59859 2.84877 5.70833 3.12504 5.70833H4.41671L7.29171 16.3958C7.35275 16.6231 7.48894 16.823 7.67809 16.9629C7.86724 17.1029 8.0982 17.1747 8.33337 17.1667H17.7084C17.9007 17.1661 18.0892 17.1122 18.2528 17.0111C18.4165 16.91 18.5489 16.7655 18.6355 16.5938L22.0521 9.76042C22.2002 9.45002 22.2692 9.10778 22.2528 8.76425C22.2364 8.42073 22.1353 8.08659 21.9584 7.79167ZM17.0625 15.0833H9.12504L7.42712 8.83333H20.1875L17.0625 15.0833Z" fill="#C470ED"/>
+                    <path d="M7.8125 22.375C8.67544 22.375 9.375 21.6754 9.375 20.8125C9.375 19.9496 8.67544 19.25 7.8125 19.25C6.94956 19.25 6.25 19.9496 6.25 20.8125C6.25 21.6754 6.94956 22.375 7.8125 22.375Z" fill="#C470ED"/>
+                    <path d="M18.2291 22.375C19.0921 22.375 19.7916 21.6754 19.7916 20.8125C19.7916 19.9496 19.0921 19.25 18.2291 19.25C17.3662 19.25 16.6666 19.9496 16.6666 20.8125C16.6666 21.6754 17.3662 22.375 18.2291 22.375Z" fill="#C470ED"/>
+                  </svg>
+                  <span class="carted-amount"></span> </div> <p>Cart</p> </a>
+                <a href="/" id="my-order"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M6 2L3 6V20C3 20.5304 3.21071 21.0391 3.58579 21.4142C3.96086 21.7893 4.46957 22 5 22H19C19.5304 22 20.0391 21.7893 20.4142 21.4142C20.7893 21.0391 21 20.5304 21 20V6L18 2H6Z" stroke="#C470ED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M3 6H21" stroke="#C470ED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M16 10C16 11.0609 15.5786 12.0783 14.8284 12.8284C14.0783 13.5786 13.0609 14 12 14C10.9391 14 9.92172 13.5786 9.17157 12.8284C8.42143 12.0783 8 11.0609 8 10" stroke="#C470ED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg> <p>My Order</p> </a>
+              </div>
+
+              <!-- when added to cart ? an animational display -->
+              <span class="cart-animation"><i class="fa fa-download"></i></span>
+            </li>
+
+            <!-- menu bar for smaller screens -->
+            <div class="menu-bar">
+                <span id="bar"></span>
+                <span id="bar"></span>
+            </div>
+        </ul>
+     </nav>
+   
+
+         <!-- first content ----- home page -->
+    <div  id="home">
+        <div class="home-content">
+            <!-- male -->
+            <a class="male-main" href="male.html">
+                <img id="male-img" src="images/medium-shot-bored-man-portrait 1.png">
+                <p>Male</p>
+            </a>
+            <!-- assossory -->
+            <a class="assessories-main" href="accessories.html">
+                <img id="assessory-img" src="images/well-based-watch.png">
+                <p>Accessories</p>
+            </a>
+            <!-- female -->
+            <a class="female-main" href="female.html">
+                <img id="female-img" src="images/portrait-young-woman-smiling-isolated 1.png">
+                <p>Female</p>
+            </a>
+        </div>
+        <!-- heading Texts -->
+            <div class="main-intro">
+                 <h2>Elevate Your Style with NINE FASHION</h2>
+                 <p id="p-tag">Welcome to Nine Fashion - Where Fashion Meets Fantasy!</p>
+                <button class="home-btn">SHOP NOW</button>
+            </div>
+    </div>
+
+    </div>
+</div>
+   
+
+
+
+
+   <!-- first section premium product from worldwide stores in nigeria -->
+   <div class="section bg-light">
+      <h2>Fashion Focus: Spotlight on the Latest Trends</h2>   
+
+      <!-- for flexing all latest trends -->
+        <div class="country-fill" >
+        <a href="/" class="link-in">
+            <div class="spotlight">
+                <img src="images/Urban Explorer_ City-Inspired Fashion.png">
+                <p class="spotlight-name">Black Coat </p>
+            </div>
+        </a>
+        <a href="/" class="link-in">
+            <div class="spotlight">
+                <img src="images/AlanBalen® Spring Sleeveless Ladies Bodysuit - Black _ L.png">
+                <p class="spotlight-name">Black Coat </p>
+            </div>
+        </a>
+        <a href="/" class="link-in">
+            <div class="spotlight">
+                <img src="images/luxurious-shiny-golden-chain.png">
+                <p class="spotlight-name">Gold Accessories</p>
+            </div>
+        </a>
+        <a href="/" class="link-in">
+            <div class="spotlight">
+                <img src="images/female glass.png">
+                <p class="spotlight-name">Classic FEMale glasses</p> 
+            </div>
+        </a>
+        <a href="/" class="link-in">
+            <div class="spotlight">
+                <img src="images/Classic Round Vintage Sunglasses Women Fashion Brand Design Mirror Sun Glasses Female Shades Retro Gafas Oculos De Sol UV400.png">
+                <p class="spotlight-name">Classic Round Sunglass </p>
+            </div>
+        </a>
+        <a href="/" class="link-in">
+            <div class="spotlight">
+                <img src="images/Men Round Frame Sunglasses.png">
+                <p class="spotlight-name">Men Round Sunglass </p>
+            </div>
+        </a>
+        <a href="/" class="link-in">
+            <div class="spotlight">
+                <img src="images/Silver Rings For Him _ Mens Jewelry Aesthetic.png">
+                <p class="spotlight-name">Silver Rings</p>
+            </div>
+        </a>
+        <a href="/" class="link-in">
+            <div class="spotlight">
+                <img src="images/Walden  by Camper.png">
+                <p class="spotlight-name">Walden shoe</p>
+            </div>
+        </a>
+
+     </div>
+   
+     <!-- btn for spotlights -->
+     <span id="left"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="41" viewBox="0 0 23 41" fill="none">
+        <path d="M22 1L2 20.5L22 40" stroke="#C470ED" stroke-width="2"/>
+      </svg></span>
+    <span id="right"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="41" viewBox="0 0 23 41" fill="none">
+        <path d="M0.999997 40L21 20.5L1 0.999997" stroke="#C470ED" stroke-width="2"/>
+      </svg></span>
+    </div>
+   
+
+
+
+
+   <!-- Trending brands and supported industries -->
+   <div id="brand-labels">
+        <h3>Trending Brands</h3>
+        <div class="brand-container">
+            <img src="images/image 1.png" alt="Brands">
+            <img src="images/image 2.png" alt="Brands">
+            <img src="images/image 3.png" alt="Brands">
+            <img src="images/image 4.png" alt="Brands">
+            <img src="images/image 6.png" alt="Brands">
+            <img src="images/image 7.png" alt="Brands">
+            <img src="images/logo (1).png" alt="Brands">
+            <img src="images/logo (2).png" alt="Brands">
+            <img src="images/logo (3).png" alt="Brands">
+            <img src="images/logo (4).png" alt="Brands">
+            <img src="images/logo.png" alt="Brands">
+        </div>
+        <button type="button" class="left"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="41" viewBox="0 0 23 41" fill="none">
+            <path d="M22 1L2 20.5L22 40" stroke="#C470ED" stroke-width="2"/>
+          </svg></button>
+        <button type="button" class="right"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="41" viewBox="0 0 23 41" fill="none">
+            <path d="M0.999997 40L21 20.5L1 0.999997" stroke="#C470ED" stroke-width="2"/>
+          </svg></button>
+   </div>
+
+
+
+
+
+
+   <!-- Exculsive Atire  for men   ----- purchsing section-->
+   <div id="purchase-container">
+    <h3 class="main-name">Exculsive Men Shoes</h3>
+      <p class="main-text">"Exculsive Attire: A Curation of the Finest, Hand-Picked Selections"</p>
+      
+      <!--  container to wrap all attire together-->
+    <div class="attire-content"> 
+        <!-- container to hold both first attire and all content together -->
+        <div class="attire-container">
+            <!-- all display -->
+            <span class="all-attire"> All <svg xmlns="http://www.w3.org/2000/svg" width="9" height="7" viewBox="0 0 9 7" fill="none">
+                <path d="M0.967606 1.05774L4.67285 4.99738L7.96666 0.942699" stroke="#C470ED" stroke-width="2"/>
+              </svg> 
+              <!-- all display details -->
+              <div class="all-feature">
+                 <a href="male.html" id="male-attire">Male</a>
+                 <a href="female.html" id="female-attire">Female</a>
+                 <a href="accessories.html" id="accessory-attire">Accessories</a>
+              </div> </span>
+              <!-- banners -->
+
+              <!-- ------ Black Hills Shoe -->
+            <div class="attire-board">
+                <div class="attire-img">
+                    <img src="images/men shoe.png" class="cart-card-img" alt="B&B Collections">
+                    <span class="quick-pick">Quick pick</span>
+                </div>
+                <div class="attire-grading">
+                    <div class="attire-grading-1">
+                        <h3 class="attire-name">Black Hills Shoe UNIQUE</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="95" height="19" viewBox="0 0 95 19" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.6646 7.12771L9.5 0L7.33536 7.12771H0L5.93479 11.742L3.73214 19L9.5 14.5146L15.2679 19L13.0652 11.742L19 7.12771H11.6646Z" fill="#FCA120"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M30.6646 7.12771L28.5 0L26.3354 7.12771H19L24.9348 11.742L22.7321 19L28.5 14.5146L34.2679 19L32.0652 11.742L38 7.12771H30.6646Z" fill="#FCA120"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M49.6646 7.12771L47.5 0L45.3354 7.12771H38L43.9348 11.742L41.7321 19L47.5 14.5146L53.2679 19L51.0652 11.742L57 7.12771H49.6646Z" fill="#FCA120"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M68.6646 7.12771L66.5 0L64.3354 7.12771H57L62.9348 11.742L60.7321 19L66.5 14.5146L72.2679 19L70.0652 11.742L76 7.12771H68.6646Z" fill="#FCA120"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M87.6646 7.12771L85.5 0L83.3354 7.12771H76L81.9348 11.742L79.7321 19L85.5 14.5146L91.2679 19L89.0652 11.742L95 7.12771H87.6646Z" fill="#FCA120"/>
+                      </svg>
+                     
+                    </div>
+                    <p id="attire-owner">Al Karam</p>
+                    <div class="attire-grading-2">
+                        <p class="reviews">(4.1K) Customer <br>Reviews</p>
+                        <span class="add-cart">Add to Cart</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="21" viewBox="0 0 18 21" fill="none">
+                            <path d="M17.4348 4.87566C17.2813 4.53886 17.0614 4.25818 16.7967 4.06102C16.532 3.86385 16.2314 3.75692 15.9243 3.75066H4.55106L4.03571 1.20816C3.98364 0.962728 3.86747 0.746847 3.70613 0.595678C3.54479 0.44451 3.34777 0.36696 3.14717 0.37566H1.3701C1.13445 0.37566 0.908446 0.494186 0.741813 0.705165C0.575181 0.916143 0.481567 1.20229 0.481567 1.50066C0.481567 1.79903 0.575181 2.08518 0.741813 2.29615C0.908446 2.50713 1.13445 2.62566 1.3701 2.62566H2.47189L4.92424 14.1682C4.97631 14.4136 5.09248 14.6295 5.25382 14.7806C5.41516 14.9318 5.61218 15.0094 5.81278 15.0007H13.8096C13.9737 15 14.1344 14.9419 14.274 14.8327C14.4136 14.7235 14.5266 14.5674 14.6004 14.3819L17.5148 7.00191C17.6411 6.66668 17.6999 6.29706 17.686 5.92605C17.672 5.55504 17.5857 5.19418 17.4348 4.87566ZM13.2587 12.7507H6.48806L5.03975 6.00066H15.9243L13.2587 12.7507Z" fill="black"/>
+                            <path d="M5.36851 20.625C6.10459 20.625 6.70131 19.8695 6.70131 18.9375C6.70131 18.0055 6.10459 17.25 5.36851 17.25C4.63242 17.25 4.03571 18.0055 4.03571 18.9375C4.03571 19.8695 4.63242 20.625 5.36851 20.625Z" fill="black"/>
+                            <path d="M14.2537 20.625C14.9898 20.625 15.5865 19.8695 15.5865 18.9375C15.5865 18.0055 14.9898 17.25 14.2537 17.25C13.5176 17.25 12.9209 18.0055 12.9209 18.9375C12.9209 19.8695 13.5176 20.625 14.2537 20.625Z" fill="black"/>
+                          </svg>
+                    </div>
+                    <div class="attire-grading-3">
+                        <p class="previous-amount"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="22" viewBox="0 0 25 22" fill="none">
+                            <path d="M21.0938 11.6562H19.5312V10.3437H21.0938C21.301 10.3437 21.4997 10.2746 21.6462 10.1515C21.7927 10.0284 21.875 9.86149 21.875 9.68744C21.875 9.5134 21.7927 9.34648 21.6462 9.2234C21.4997 9.10033 21.301 9.03119 21.0938 9.03119H19.5312V4.27338C19.5312 4.09933 19.4489 3.93241 19.3024 3.80934C19.1559 3.68627 18.9572 3.61713 18.75 3.61713C18.5428 3.61713 18.3441 3.68627 18.1976 3.80934C18.0511 3.93241 17.9688 4.09933 17.9688 4.27338V9.03119H11.6621L6.86621 3.86979C6.76616 3.76195 6.62852 3.68306 6.47251 3.64412C6.31649 3.60519 6.1499 3.60815 5.99599 3.6526C5.84208 3.69705 5.70853 3.78077 5.61401 3.89206C5.51949 4.00335 5.4687 4.13667 5.46875 4.27338V9.03119H3.90625C3.69905 9.03119 3.50034 9.10033 3.35382 9.2234C3.20731 9.34648 3.125 9.5134 3.125 9.68744C3.125 9.86149 3.20731 10.0284 3.35382 10.1515C3.50034 10.2746 3.69905 10.3437 3.90625 10.3437H5.46875V11.6562H3.90625C3.69905 11.6562 3.50034 11.7253 3.35382 11.8484C3.20731 11.9715 3.125 12.1384 3.125 12.3124C3.125 12.4865 3.20731 12.6534 3.35382 12.7765C3.50034 12.8996 3.69905 12.9687 3.90625 12.9687H5.46875V17.7265C5.46875 17.9006 5.55106 18.0675 5.69757 18.1905C5.84409 18.3136 6.0428 18.3828 6.25 18.3828C6.4572 18.3828 6.65591 18.3136 6.80243 18.1905C6.94894 18.0675 7.03125 17.9006 7.03125 17.7265V12.9687H13.3379L18.1338 18.1301C18.2069 18.2088 18.3004 18.2725 18.4071 18.3163C18.5139 18.36 18.6312 18.3828 18.75 18.3828C18.8365 18.3829 18.9223 18.3707 19.0039 18.3467C19.1577 18.3023 19.2912 18.2186 19.3857 18.1075C19.4803 17.9963 19.5311 17.8631 19.5312 17.7265V12.9687H21.0938C21.301 12.9687 21.4997 12.8996 21.6462 12.7765C21.7927 12.6534 21.875 12.4865 21.875 12.3124C21.875 12.1384 21.7927 11.9715 21.6462 11.8484C21.4997 11.7253 21.301 11.6562 21.0938 11.6562ZM17.9688 10.3437V11.6562H14.1006L12.8809 10.3437H17.9688ZM7.03125 6.18061L9.67969 9.03119H7.03125V6.18061ZM7.03125 11.6562V10.3437H10.8994L12.1191 11.6562H7.03125ZM17.9688 15.8193L15.3203 12.9687H17.9688V15.8193Z" fill="black"/>
+                          </svg>55,000</p>
+                        <p class="current-amount"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="22" viewBox="0 0 25 22" fill="none">
+                            <path d="M21.0938 11.6562H19.5312V10.3437H21.0938C21.301 10.3437 21.4997 10.2746 21.6462 10.1515C21.7927 10.0284 21.875 9.86149 21.875 9.68744C21.875 9.5134 21.7927 9.34648 21.6462 9.2234C21.4997 9.10033 21.301 9.03119 21.0938 9.03119H19.5312V4.27338C19.5312 4.09933 19.4489 3.93241 19.3024 3.80934C19.1559 3.68627 18.9572 3.61713 18.75 3.61713C18.5428 3.61713 18.3441 3.68627 18.1976 3.80934C18.0511 3.93241 17.9688 4.09933 17.9688 4.27338V9.03119H11.6621L6.86621 3.86979C6.76616 3.76195 6.62852 3.68306 6.47251 3.64412C6.31649 3.60519 6.1499 3.60815 5.99599 3.6526C5.84208 3.69705 5.70853 3.78077 5.61401 3.89206C5.51949 4.00335 5.4687 4.13667 5.46875 4.27338V9.03119H3.90625C3.69905 9.03119 3.50034 9.10033 3.35382 9.2234C3.20731 9.34648 3.125 9.5134 3.125 9.68744C3.125 9.86149 3.20731 10.0284 3.35382 10.1515C3.50034 10.2746 3.69905 10.3437 3.90625 10.3437H5.46875V11.6562H3.90625C3.69905 11.6562 3.50034 11.7253 3.35382 11.8484C3.20731 11.9715 3.125 12.1384 3.125 12.3124C3.125 12.4865 3.20731 12.6534 3.35382 12.7765C3.50034 12.8996 3.69905 12.9687 3.90625 12.9687H5.46875V17.7265C5.46875 17.9006 5.55106 18.0675 5.69757 18.1905C5.84409 18.3136 6.0428 18.3828 6.25 18.3828C6.4572 18.3828 6.65591 18.3136 6.80243 18.1905C6.94894 18.0675 7.03125 17.9006 7.03125 17.7265V12.9687H13.3379L18.1338 18.1301C18.2069 18.2088 18.3004 18.2725 18.4071 18.3163C18.5139 18.36 18.6312 18.3828 18.75 18.3828C18.8365 18.3829 18.9223 18.3707 19.0039 18.3467C19.1577 18.3023 19.2912 18.2186 19.3857 18.1075C19.4803 17.9963 19.5311 17.8631 19.5312 17.7265V12.9687H21.0938C21.301 12.9687 21.4997 12.8996 21.6462 12.7765C21.7927 12.6534 21.875 12.4865 21.875 12.3124C21.875 12.1384 21.7927 11.9715 21.6462 11.8484C21.4997 11.7253 21.301 11.6562 21.0938 11.6562ZM17.9688 10.3437V11.6562H14.1006L12.8809 10.3437H17.9688ZM7.03125 6.18061L9.67969 9.03119H7.03125V6.18061ZM7.03125 11.6562V10.3437H10.8994L12.1191 11.6562H7.03125ZM17.9688 15.8193L15.3203 12.9687H17.9688V15.8193Z" fill="black"/>
+                          </svg>56,000</p>
+                            <span class="stock">In Stock</span>
+                    </div>
+                     <!--extra product for inner content  -->
+                     <div class="extra-product-details">   
+                        <div id="related-image-1"><img src="images/men shoe.png" alt="NINE FASHION" class="small-img"  id="related-img-1"></div>
+                        <div id="related-image-2"><img src="images/shoe black related.png" alt="NINE FASHION" class="small-img"  id="related-img-2"></div>
+                        <div id="related-image-3"><img src="images/shoe internet 1.webp" alt="NINE FASHION" class="small-img"  id="related-img-3"></div>
+                        <div id="related-image-4"><img src="images/shoe internet 2.jpg" alt="NINE FASHION" class="small-img"  id="related-img-4"></div>
+                    
+                        <p class="brief-short">Experience the comfortability of the <strong>Black Hills Shoe UNIQUE</strong> making you enjoy the ability to move freely and elegantly.</p>
+                        <div class="item-id">
+                            <h3>Made in UK <br> product ID: <span class="product-id"></span></h3>
+                            <span class="item-desc">Qorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.</span>
+                          </div>
+                   <div class="view-reviews">veiw reviews</div>
+                   <div class="add-review"><textarea name="add-rev" id="add-rev" cols="40" rows="10"></textarea></div>
+                        </div>    
+                </div>
+
+            </div>
+           </div>
+
+
+           <!-- --------New Balance Shoes-->
+            <div class="attire-board">
+               <div class="attire-img">
+                <img src="images/balance.png" class="cart-card-img" alt="B&B Collections">
+                <span class="quick-pick">Quick Pick</span>
+               </div>
+                <div class="attire-grading">
+                    <div class="attire-grading-1">
+                        <h3 class="attire-name">New Balance Shoes Unique</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="95" height="19" viewBox="0 0 95 19" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.6646 7.12771L9.5 0L7.33536 7.12771H0L5.93479 11.742L3.73214 19L9.5 14.5146L15.2679 19L13.0652 11.742L19 7.12771H11.6646Z" fill="#FCA120"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M30.6646 7.12771L28.5 0L26.3354 7.12771H19L24.9348 11.742L22.7321 19L28.5 14.5146L34.2679 19L32.0652 11.742L38 7.12771H30.6646Z" fill="#FCA120"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M49.6646 7.12771L47.5 0L45.3354 7.12771H38L43.9348 11.742L41.7321 19L47.5 14.5146L53.2679 19L51.0652 11.742L57 7.12771H49.6646Z" fill="#FCA120"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M68.6646 7.12771L66.5 0L64.3354 7.12771H57L62.9348 11.742L60.7321 19L66.5 14.5146L72.2679 19L70.0652 11.742L76 7.12771H68.6646Z" fill="#FCA120"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M87.6646 7.12771L85.5 0L83.3354 7.12771H76L81.9348 11.742L79.7321 19L85.5 14.5146L91.2679 19L89.0652 11.742L95 7.12771H87.6646Z" fill="#FCA120"/>
+                      </svg>
+                     
+                    </div>
+                    <p id="attire-owner">Al Karam</p>
+                    <div class="attire-grading-2">
+                        <p class="reviews">(4.1K) Customer <br>Reviews</p>
+                        <span class="add-cart">Add to Cart</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="21" viewBox="0 0 18 21" fill="none">
+                            <path d="M17.4348 4.87566C17.2813 4.53886 17.0614 4.25818 16.7967 4.06102C16.532 3.86385 16.2314 3.75692 15.9243 3.75066H4.55106L4.03571 1.20816C3.98364 0.962728 3.86747 0.746847 3.70613 0.595678C3.54479 0.44451 3.34777 0.36696 3.14717 0.37566H1.3701C1.13445 0.37566 0.908446 0.494186 0.741813 0.705165C0.575181 0.916143 0.481567 1.20229 0.481567 1.50066C0.481567 1.79903 0.575181 2.08518 0.741813 2.29615C0.908446 2.50713 1.13445 2.62566 1.3701 2.62566H2.47189L4.92424 14.1682C4.97631 14.4136 5.09248 14.6295 5.25382 14.7806C5.41516 14.9318 5.61218 15.0094 5.81278 15.0007H13.8096C13.9737 15 14.1344 14.9419 14.274 14.8327C14.4136 14.7235 14.5266 14.5674 14.6004 14.3819L17.5148 7.00191C17.6411 6.66668 17.6999 6.29706 17.686 5.92605C17.672 5.55504 17.5857 5.19418 17.4348 4.87566ZM13.2587 12.7507H6.48806L5.03975 6.00066H15.9243L13.2587 12.7507Z" fill="black"/>
+                            <path d="M5.36851 20.625C6.10459 20.625 6.70131 19.8695 6.70131 18.9375C6.70131 18.0055 6.10459 17.25 5.36851 17.25C4.63242 17.25 4.03571 18.0055 4.03571 18.9375C4.03571 19.8695 4.63242 20.625 5.36851 20.625Z" fill="black"/>
+                            <path d="M14.2537 20.625C14.9898 20.625 15.5865 19.8695 15.5865 18.9375C15.5865 18.0055 14.9898 17.25 14.2537 17.25C13.5176 17.25 12.9209 18.0055 12.9209 18.9375C12.9209 19.8695 13.5176 20.625 14.2537 20.625Z" fill="black"/>
+                          </svg>
+                    </div>
+                    <div class="attire-grading-3">
+                        <p class="previous-amount"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="22" viewBox="0 0 25 22" fill="none">
+                            <path d="M21.0938 11.6562H19.5312V10.3437H21.0938C21.301 10.3437 21.4997 10.2746 21.6462 10.1515C21.7927 10.0284 21.875 9.86149 21.875 9.68744C21.875 9.5134 21.7927 9.34648 21.6462 9.2234C21.4997 9.10033 21.301 9.03119 21.0938 9.03119H19.5312V4.27338C19.5312 4.09933 19.4489 3.93241 19.3024 3.80934C19.1559 3.68627 18.9572 3.61713 18.75 3.61713C18.5428 3.61713 18.3441 3.68627 18.1976 3.80934C18.0511 3.93241 17.9688 4.09933 17.9688 4.27338V9.03119H11.6621L6.86621 3.86979C6.76616 3.76195 6.62852 3.68306 6.47251 3.64412C6.31649 3.60519 6.1499 3.60815 5.99599 3.6526C5.84208 3.69705 5.70853 3.78077 5.61401 3.89206C5.51949 4.00335 5.4687 4.13667 5.46875 4.27338V9.03119H3.90625C3.69905 9.03119 3.50034 9.10033 3.35382 9.2234C3.20731 9.34648 3.125 9.5134 3.125 9.68744C3.125 9.86149 3.20731 10.0284 3.35382 10.1515C3.50034 10.2746 3.69905 10.3437 3.90625 10.3437H5.46875V11.6562H3.90625C3.69905 11.6562 3.50034 11.7253 3.35382 11.8484C3.20731 11.9715 3.125 12.1384 3.125 12.3124C3.125 12.4865 3.20731 12.6534 3.35382 12.7765C3.50034 12.8996 3.69905 12.9687 3.90625 12.9687H5.46875V17.7265C5.46875 17.9006 5.55106 18.0675 5.69757 18.1905C5.84409 18.3136 6.0428 18.3828 6.25 18.3828C6.4572 18.3828 6.65591 18.3136 6.80243 18.1905C6.94894 18.0675 7.03125 17.9006 7.03125 17.7265V12.9687H13.3379L18.1338 18.1301C18.2069 18.2088 18.3004 18.2725 18.4071 18.3163C18.5139 18.36 18.6312 18.3828 18.75 18.3828C18.8365 18.3829 18.9223 18.3707 19.0039 18.3467C19.1577 18.3023 19.2912 18.2186 19.3857 18.1075C19.4803 17.9963 19.5311 17.8631 19.5312 17.7265V12.9687H21.0938C21.301 12.9687 21.4997 12.8996 21.6462 12.7765C21.7927 12.6534 21.875 12.4865 21.875 12.3124C21.875 12.1384 21.7927 11.9715 21.6462 11.8484C21.4997 11.7253 21.301 11.6562 21.0938 11.6562ZM17.9688 10.3437V11.6562H14.1006L12.8809 10.3437H17.9688ZM7.03125 6.18061L9.67969 9.03119H7.03125V6.18061ZM7.03125 11.6562V10.3437H10.8994L12.1191 11.6562H7.03125ZM17.9688 15.8193L15.3203 12.9687H17.9688V15.8193Z" fill="black"/>
+                          </svg>30,000</p>
+                        <p class="current-amount"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="22" viewBox="0 0 25 22" fill="none">
+                            <path d="M21.0938 11.6562H19.5312V10.3437H21.0938C21.301 10.3437 21.4997 10.2746 21.6462 10.1515C21.7927 10.0284 21.875 9.86149 21.875 9.68744C21.875 9.5134 21.7927 9.34648 21.6462 9.2234C21.4997 9.10033 21.301 9.03119 21.0938 9.03119H19.5312V4.27338C19.5312 4.09933 19.4489 3.93241 19.3024 3.80934C19.1559 3.68627 18.9572 3.61713 18.75 3.61713C18.5428 3.61713 18.3441 3.68627 18.1976 3.80934C18.0511 3.93241 17.9688 4.09933 17.9688 4.27338V9.03119H11.6621L6.86621 3.86979C6.76616 3.76195 6.62852 3.68306 6.47251 3.64412C6.31649 3.60519 6.1499 3.60815 5.99599 3.6526C5.84208 3.69705 5.70853 3.78077 5.61401 3.89206C5.51949 4.00335 5.4687 4.13667 5.46875 4.27338V9.03119H3.90625C3.69905 9.03119 3.50034 9.10033 3.35382 9.2234C3.20731 9.34648 3.125 9.5134 3.125 9.68744C3.125 9.86149 3.20731 10.0284 3.35382 10.1515C3.50034 10.2746 3.69905 10.3437 3.90625 10.3437H5.46875V11.6562H3.90625C3.69905 11.6562 3.50034 11.7253 3.35382 11.8484C3.20731 11.9715 3.125 12.1384 3.125 12.3124C3.125 12.4865 3.20731 12.6534 3.35382 12.7765C3.50034 12.8996 3.69905 12.9687 3.90625 12.9687H5.46875V17.7265C5.46875 17.9006 5.55106 18.0675 5.69757 18.1905C5.84409 18.3136 6.0428 18.3828 6.25 18.3828C6.4572 18.3828 6.65591 18.3136 6.80243 18.1905C6.94894 18.0675 7.03125 17.9006 7.03125 17.7265V12.9687H13.3379L18.1338 18.1301C18.2069 18.2088 18.3004 18.2725 18.4071 18.3163C18.5139 18.36 18.6312 18.3828 18.75 18.3828C18.8365 18.3829 18.9223 18.3707 19.0039 18.3467C19.1577 18.3023 19.2912 18.2186 19.3857 18.1075C19.4803 17.9963 19.5311 17.8631 19.5312 17.7265V12.9687H21.0938C21.301 12.9687 21.4997 12.8996 21.6462 12.7765C21.7927 12.6534 21.875 12.4865 21.875 12.3124C21.875 12.1384 21.7927 11.9715 21.6462 11.8484C21.4997 11.7253 21.301 11.6562 21.0938 11.6562ZM17.9688 10.3437V11.6562H14.1006L12.8809 10.3437H17.9688ZM7.03125 6.18061L9.67969 9.03119H7.03125V6.18061ZM7.03125 11.6562V10.3437H10.8994L12.1191 11.6562H7.03125ZM17.9688 15.8193L15.3203 12.9687H17.9688V15.8193Z" fill="black"/>
+                          </svg>25,500</p>
+                            <span class="stock-out">Almost Sold Out</span>
+                    </div>
+                      <div class="extra-product-details">  
+                         <div id="related-image-1"><img src="images/New Balance Numeric 272.png" alt="NINE FASHION" class="small-img"  id="related-img-1"></div>
+                        <div id="related-image-2"><img src="images/canvas internet 1.png" alt="NINE FASHION" class="small-img"  id="related-img-2"></div>
+                        <div id="related-image-3"><img src="images/canvas internet 2.webp" alt="NINE FASHION" class="small-img"  id="related-img-3"></div>
+                        <div id="related-image-4"><img src="images/canvas internet 3.webp" alt="NINE FASHION" class="small-img"  id="related-img-4"></div>
+                   
+                        <p class="brief-short">Experience the comfortability of the <strong>Black Hills Shoe UNIQUE</strong> making you enjoy the ability to move freely and elegantly.</p>
+                        <div class="item-id">
+                            <h3>Made in UK <br> product ID: <span class="product-id"></span></h3>
+                            <span class="item-desc">Qorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.</span>
+                          </div>
+                          <div class="view-reviews">veiw reviews</div>
+                          <div class="add-review"><textarea name="add-rev" id="add-rev" cols="40" rows="10"></textarea></div>
+                    
+                        </div>  
+                </div>
+
+            </div>
+
+
+            <!-- -------- Men Letter Graphic-->
+            <div class="attire-board">
+                <div class="attire-img">
+                    <img src="images/Men Letter Graphic Buckle Decor Square Bag With Bag Charm.png" class="cart-card-img" alt="B&B Collections">
+                    <span class="quick-pick">Quick Pick</span>
+                </div>
+                <div class="attire-grading">
+                    <div class="attire-grading-1">
+                        <h3 class="attire-name">Men Letter Graphic Buckle Decor Square Bag With Bag Charm</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="95" height="19" viewBox="0 0 95 19" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.6646 7.12771L9.5 0L7.33536 7.12771H0L5.93479 11.742L3.73214 19L9.5 14.5146L15.2679 19L13.0652 11.742L19 7.12771H11.6646Z" fill="#FCA120"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M30.6646 7.12771L28.5 0L26.3354 7.12771H19L24.9348 11.742L22.7321 19L28.5 14.5146L34.2679 19L32.0652 11.742L38 7.12771H30.6646Z" fill="#FCA120"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M49.6646 7.12771L47.5 0L45.3354 7.12771H38L43.9348 11.742L41.7321 19L47.5 14.5146L53.2679 19L51.0652 11.742L57 7.12771H49.6646Z" fill="#FCA120"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M68.6646 7.12771L66.5 0L64.3354 7.12771H57L62.9348 11.742L60.7321 19L66.5 14.5146L72.2679 19L70.0652 11.742L76 7.12771H68.6646Z" fill="#FCA120"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M87.6646 7.12771L85.5 0L83.3354 7.12771H76L81.9348 11.742L79.7321 19L85.5 14.5146L91.2679 19L89.0652 11.742L95 7.12771H87.6646Z" fill="#FCA120"/>
+                      </svg>
+                     
+                    </div>
+                    <p id="attire-owner">Al Karam</p>
+                    <div class="attire-grading-2">
+                        <p class="reviews">(4.1K) Customer <br>Reviews</p>
+                        <span class="add-cart">Add to Cart</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="21" viewBox="0 0 18 21" fill="none">
+                            <path d="M17.4348 4.87566C17.2813 4.53886 17.0614 4.25818 16.7967 4.06102C16.532 3.86385 16.2314 3.75692 15.9243 3.75066H4.55106L4.03571 1.20816C3.98364 0.962728 3.86747 0.746847 3.70613 0.595678C3.54479 0.44451 3.34777 0.36696 3.14717 0.37566H1.3701C1.13445 0.37566 0.908446 0.494186 0.741813 0.705165C0.575181 0.916143 0.481567 1.20229 0.481567 1.50066C0.481567 1.79903 0.575181 2.08518 0.741813 2.29615C0.908446 2.50713 1.13445 2.62566 1.3701 2.62566H2.47189L4.92424 14.1682C4.97631 14.4136 5.09248 14.6295 5.25382 14.7806C5.41516 14.9318 5.61218 15.0094 5.81278 15.0007H13.8096C13.9737 15 14.1344 14.9419 14.274 14.8327C14.4136 14.7235 14.5266 14.5674 14.6004 14.3819L17.5148 7.00191C17.6411 6.66668 17.6999 6.29706 17.686 5.92605C17.672 5.55504 17.5857 5.19418 17.4348 4.87566ZM13.2587 12.7507H6.48806L5.03975 6.00066H15.9243L13.2587 12.7507Z" fill="black"/>
+                            <path d="M5.36851 20.625C6.10459 20.625 6.70131 19.8695 6.70131 18.9375C6.70131 18.0055 6.10459 17.25 5.36851 17.25C4.63242 17.25 4.03571 18.0055 4.03571 18.9375C4.03571 19.8695 4.63242 20.625 5.36851 20.625Z" fill="black"/>
+                            <path d="M14.2537 20.625C14.9898 20.625 15.5865 19.8695 15.5865 18.9375C15.5865 18.0055 14.9898 17.25 14.2537 17.25C13.5176 17.25 12.9209 18.0055 12.9209 18.9375C12.9209 19.8695 13.5176 20.625 14.2537 20.625Z" fill="black"/>
+                          </svg>
+                    </div>
+                    <div class="attire-grading-3">
+                        <p class="previous-amount"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="22" viewBox="0 0 25 22" fill="none">
+                            <path d="M21.0938 11.6562H19.5312V10.3437H21.0938C21.301 10.3437 21.4997 10.2746 21.6462 10.1515C21.7927 10.0284 21.875 9.86149 21.875 9.68744C21.875 9.5134 21.7927 9.34648 21.6462 9.2234C21.4997 9.10033 21.301 9.03119 21.0938 9.03119H19.5312V4.27338C19.5312 4.09933 19.4489 3.93241 19.3024 3.80934C19.1559 3.68627 18.9572 3.61713 18.75 3.61713C18.5428 3.61713 18.3441 3.68627 18.1976 3.80934C18.0511 3.93241 17.9688 4.09933 17.9688 4.27338V9.03119H11.6621L6.86621 3.86979C6.76616 3.76195 6.62852 3.68306 6.47251 3.64412C6.31649 3.60519 6.1499 3.60815 5.99599 3.6526C5.84208 3.69705 5.70853 3.78077 5.61401 3.89206C5.51949 4.00335 5.4687 4.13667 5.46875 4.27338V9.03119H3.90625C3.69905 9.03119 3.50034 9.10033 3.35382 9.2234C3.20731 9.34648 3.125 9.5134 3.125 9.68744C3.125 9.86149 3.20731 10.0284 3.35382 10.1515C3.50034 10.2746 3.69905 10.3437 3.90625 10.3437H5.46875V11.6562H3.90625C3.69905 11.6562 3.50034 11.7253 3.35382 11.8484C3.20731 11.9715 3.125 12.1384 3.125 12.3124C3.125 12.4865 3.20731 12.6534 3.35382 12.7765C3.50034 12.8996 3.69905 12.9687 3.90625 12.9687H5.46875V17.7265C5.46875 17.9006 5.55106 18.0675 5.69757 18.1905C5.84409 18.3136 6.0428 18.3828 6.25 18.3828C6.4572 18.3828 6.65591 18.3136 6.80243 18.1905C6.94894 18.0675 7.03125 17.9006 7.03125 17.7265V12.9687H13.3379L18.1338 18.1301C18.2069 18.2088 18.3004 18.2725 18.4071 18.3163C18.5139 18.36 18.6312 18.3828 18.75 18.3828C18.8365 18.3829 18.9223 18.3707 19.0039 18.3467C19.1577 18.3023 19.2912 18.2186 19.3857 18.1075C19.4803 17.9963 19.5311 17.8631 19.5312 17.7265V12.9687H21.0938C21.301 12.9687 21.4997 12.8996 21.6462 12.7765C21.7927 12.6534 21.875 12.4865 21.875 12.3124C21.875 12.1384 21.7927 11.9715 21.6462 11.8484C21.4997 11.7253 21.301 11.6562 21.0938 11.6562ZM17.9688 10.3437V11.6562H14.1006L12.8809 10.3437H17.9688ZM7.03125 6.18061L9.67969 9.03119H7.03125V6.18061ZM7.03125 11.6562V10.3437H10.8994L12.1191 11.6562H7.03125ZM17.9688 15.8193L15.3203 12.9687H17.9688V15.8193Z" fill="black"/>
+                          </svg>10,000</p>
+                        <p class="current-amount"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="22" viewBox="0 0 25 22" fill="none">
+                            <path d="M21.0938 11.6562H19.5312V10.3437H21.0938C21.301 10.3437 21.4997 10.2746 21.6462 10.1515C21.7927 10.0284 21.875 9.86149 21.875 9.68744C21.875 9.5134 21.7927 9.34648 21.6462 9.2234C21.4997 9.10033 21.301 9.03119 21.0938 9.03119H19.5312V4.27338C19.5312 4.09933 19.4489 3.93241 19.3024 3.80934C19.1559 3.68627 18.9572 3.61713 18.75 3.61713C18.5428 3.61713 18.3441 3.68627 18.1976 3.80934C18.0511 3.93241 17.9688 4.09933 17.9688 4.27338V9.03119H11.6621L6.86621 3.86979C6.76616 3.76195 6.62852 3.68306 6.47251 3.64412C6.31649 3.60519 6.1499 3.60815 5.99599 3.6526C5.84208 3.69705 5.70853 3.78077 5.61401 3.89206C5.51949 4.00335 5.4687 4.13667 5.46875 4.27338V9.03119H3.90625C3.69905 9.03119 3.50034 9.10033 3.35382 9.2234C3.20731 9.34648 3.125 9.5134 3.125 9.68744C3.125 9.86149 3.20731 10.0284 3.35382 10.1515C3.50034 10.2746 3.69905 10.3437 3.90625 10.3437H5.46875V11.6562H3.90625C3.69905 11.6562 3.50034 11.7253 3.35382 11.8484C3.20731 11.9715 3.125 12.1384 3.125 12.3124C3.125 12.4865 3.20731 12.6534 3.35382 12.7765C3.50034 12.8996 3.69905 12.9687 3.90625 12.9687H5.46875V17.7265C5.46875 17.9006 5.55106 18.0675 5.69757 18.1905C5.84409 18.3136 6.0428 18.3828 6.25 18.3828C6.4572 18.3828 6.65591 18.3136 6.80243 18.1905C6.94894 18.0675 7.03125 17.9006 7.03125 17.7265V12.9687H13.3379L18.1338 18.1301C18.2069 18.2088 18.3004 18.2725 18.4071 18.3163C18.5139 18.36 18.6312 18.3828 18.75 18.3828C18.8365 18.3829 18.9223 18.3707 19.0039 18.3467C19.1577 18.3023 19.2912 18.2186 19.3857 18.1075C19.4803 17.9963 19.5311 17.8631 19.5312 17.7265V12.9687H21.0938C21.301 12.9687 21.4997 12.8996 21.6462 12.7765C21.7927 12.6534 21.875 12.4865 21.875 12.3124C21.875 12.1384 21.7927 11.9715 21.6462 11.8484C21.4997 11.7253 21.301 11.6562 21.0938 11.6562ZM17.9688 10.3437V11.6562H14.1006L12.8809 10.3437H17.9688ZM7.03125 6.18061L9.67969 9.03119H7.03125V6.18061ZM7.03125 11.6562V10.3437H10.8994L12.1191 11.6562H7.03125ZM17.9688 15.8193L15.3203 12.9687H17.9688V15.8193Z" fill="black"/>
+                          </svg>8,500</p>
+                            <span class="stock-out">Almost Sold Out</span>
+                    </div> 
+                     <div class="extra-product-details">  
+                        <div id="related-image-1"><img src="images/Men Letter Graphic Buckle Decor Square Bag With Bag Charm.png" alt="NINE FASHION" class="small-img"  id="related-img-1"></div>
+                        <div id="related-image-2"><img src="images/bag man 2.webp" alt="NINE FASHION" class="small-img"  id="related-img-2"></div>
+                        <div id="related-image-3"><img src="images/bag man 3.jpg" alt="NINE FASHION" class="small-img"  id="related-img-3"></div>
+                        <div id="related-image-4"><img src="images/bag man 1.avif" alt="NINE FASHION" class="small-img"  id="related-img-4"></div>
+                   
+                        <p class="brief-short">Experience the comfortability of the <strong>Black Hills Shoe UNIQUE</strong> making you enjoy the ability to move freely and elegantly.</p>
+                        <div class="item-id">
+                            <h3>Made in UK <br> product ID: <span class="product-id"> </span></h3>
+                            <span class="item-desc">Qorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.</span>
+                          </div>
+                          <div class="view-reviews">veiw reviews</div>
+                          <div class="add-review"><textarea name="add-rev" id="add-rev" cols="40" rows="10"></textarea></div>
+                    
+                        </div>  
+                </div>
+
+            </div>
+
+
+            <!-- ----------Louis Vuitton Bag LV -->
+            <div class="attire-board">
+                <div class="attire-img">
+                    <img src="images/Louis Vuitton Bag LV Virgil Abloh TRIO backpack M45670.png" class="cart-card-img" alt="B&B Collections">
+                    <span class="quick-pick">Quick Pick</span>
+                </div>
+                <div class="attire-grading">
+                    <div class="attire-grading-1">
+                        <h3 class="attire-name">Louis Vuitton Bag LV Virgil Abloh TRIO backpack</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="95" height="19" viewBox="0 0 95 19" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.6646 7.12771L9.5 0L7.33536 7.12771H0L5.93479 11.742L3.73214 19L9.5 14.5146L15.2679 19L13.0652 11.742L19 7.12771H11.6646Z" fill="#FCA120"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M30.6646 7.12771L28.5 0L26.3354 7.12771H19L24.9348 11.742L22.7321 19L28.5 14.5146L34.2679 19L32.0652 11.742L38 7.12771H30.6646Z" fill="#FCA120"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M49.6646 7.12771L47.5 0L45.3354 7.12771H38L43.9348 11.742L41.7321 19L47.5 14.5146L53.2679 19L51.0652 11.742L57 7.12771H49.6646Z" fill="#FCA120"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M68.6646 7.12771L66.5 0L64.3354 7.12771H57L62.9348 11.742L60.7321 19L66.5 14.5146L72.2679 19L70.0652 11.742L76 7.12771H68.6646Z" fill="#FCA120"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M87.6646 7.12771L85.5 0L83.3354 7.12771H76L81.9348 11.742L79.7321 19L85.5 14.5146L91.2679 19L89.0652 11.742L95 7.12771H87.6646Z" fill="#FCA120"/>
+                      </svg>
+                     
+                    </div>
+                    <p id="attire-owner">Al Karam</p>
+                    <div class="attire-grading-2">
+                        <p class="reviews">(4.1K) Customer <br>Reviews</p>
+                        <span class="add-cart">Add to Cart</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="21" viewBox="0 0 18 21" fill="none">
+                            <path d="M17.4348 4.87566C17.2813 4.53886 17.0614 4.25818 16.7967 4.06102C16.532 3.86385 16.2314 3.75692 15.9243 3.75066H4.55106L4.03571 1.20816C3.98364 0.962728 3.86747 0.746847 3.70613 0.595678C3.54479 0.44451 3.34777 0.36696 3.14717 0.37566H1.3701C1.13445 0.37566 0.908446 0.494186 0.741813 0.705165C0.575181 0.916143 0.481567 1.20229 0.481567 1.50066C0.481567 1.79903 0.575181 2.08518 0.741813 2.29615C0.908446 2.50713 1.13445 2.62566 1.3701 2.62566H2.47189L4.92424 14.1682C4.97631 14.4136 5.09248 14.6295 5.25382 14.7806C5.41516 14.9318 5.61218 15.0094 5.81278 15.0007H13.8096C13.9737 15 14.1344 14.9419 14.274 14.8327C14.4136 14.7235 14.5266 14.5674 14.6004 14.3819L17.5148 7.00191C17.6411 6.66668 17.6999 6.29706 17.686 5.92605C17.672 5.55504 17.5857 5.19418 17.4348 4.87566ZM13.2587 12.7507H6.48806L5.03975 6.00066H15.9243L13.2587 12.7507Z" fill="black"/>
+                            <path d="M5.36851 20.625C6.10459 20.625 6.70131 19.8695 6.70131 18.9375C6.70131 18.0055 6.10459 17.25 5.36851 17.25C4.63242 17.25 4.03571 18.0055 4.03571 18.9375C4.03571 19.8695 4.63242 20.625 5.36851 20.625Z" fill="black"/>
+                            <path d="M14.2537 20.625C14.9898 20.625 15.5865 19.8695 15.5865 18.9375C15.5865 18.0055 14.9898 17.25 14.2537 17.25C13.5176 17.25 12.9209 18.0055 12.9209 18.9375C12.9209 19.8695 13.5176 20.625 14.2537 20.625Z" fill="black"/>
+                          </svg>
+                    </div>
+                    <div class="attire-grading-3">
+                        <p class="previous-amount"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="22" viewBox="0 0 25 22" fill="none">
+                            <path d="M21.0938 11.6562H19.5312V10.3437H21.0938C21.301 10.3437 21.4997 10.2746 21.6462 10.1515C21.7927 10.0284 21.875 9.86149 21.875 9.68744C21.875 9.5134 21.7927 9.34648 21.6462 9.2234C21.4997 9.10033 21.301 9.03119 21.0938 9.03119H19.5312V4.27338C19.5312 4.09933 19.4489 3.93241 19.3024 3.80934C19.1559 3.68627 18.9572 3.61713 18.75 3.61713C18.5428 3.61713 18.3441 3.68627 18.1976 3.80934C18.0511 3.93241 17.9688 4.09933 17.9688 4.27338V9.03119H11.6621L6.86621 3.86979C6.76616 3.76195 6.62852 3.68306 6.47251 3.64412C6.31649 3.60519 6.1499 3.60815 5.99599 3.6526C5.84208 3.69705 5.70853 3.78077 5.61401 3.89206C5.51949 4.00335 5.4687 4.13667 5.46875 4.27338V9.03119H3.90625C3.69905 9.03119 3.50034 9.10033 3.35382 9.2234C3.20731 9.34648 3.125 9.5134 3.125 9.68744C3.125 9.86149 3.20731 10.0284 3.35382 10.1515C3.50034 10.2746 3.69905 10.3437 3.90625 10.3437H5.46875V11.6562H3.90625C3.69905 11.6562 3.50034 11.7253 3.35382 11.8484C3.20731 11.9715 3.125 12.1384 3.125 12.3124C3.125 12.4865 3.20731 12.6534 3.35382 12.7765C3.50034 12.8996 3.69905 12.9687 3.90625 12.9687H5.46875V17.7265C5.46875 17.9006 5.55106 18.0675 5.69757 18.1905C5.84409 18.3136 6.0428 18.3828 6.25 18.3828C6.4572 18.3828 6.65591 18.3136 6.80243 18.1905C6.94894 18.0675 7.03125 17.9006 7.03125 17.7265V12.9687H13.3379L18.1338 18.1301C18.2069 18.2088 18.3004 18.2725 18.4071 18.3163C18.5139 18.36 18.6312 18.3828 18.75 18.3828C18.8365 18.3829 18.9223 18.3707 19.0039 18.3467C19.1577 18.3023 19.2912 18.2186 19.3857 18.1075C19.4803 17.9963 19.5311 17.8631 19.5312 17.7265V12.9687H21.0938C21.301 12.9687 21.4997 12.8996 21.6462 12.7765C21.7927 12.6534 21.875 12.4865 21.875 12.3124C21.875 12.1384 21.7927 11.9715 21.6462 11.8484C21.4997 11.7253 21.301 11.6562 21.0938 11.6562ZM17.9688 10.3437V11.6562H14.1006L12.8809 10.3437H17.9688ZM7.03125 6.18061L9.67969 9.03119H7.03125V6.18061ZM7.03125 11.6562V10.3437H10.8994L12.1191 11.6562H7.03125ZM17.9688 15.8193L15.3203 12.9687H17.9688V15.8193Z" fill="black"/>
+                          </svg>18,000</p>
+                        <p class="current-amount"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="22" viewBox="0 0 25 22" fill="none">
+                            <path d="M21.0938 11.6562H19.5312V10.3437H21.0938C21.301 10.3437 21.4997 10.2746 21.6462 10.1515C21.7927 10.0284 21.875 9.86149 21.875 9.68744C21.875 9.5134 21.7927 9.34648 21.6462 9.2234C21.4997 9.10033 21.301 9.03119 21.0938 9.03119H19.5312V4.27338C19.5312 4.09933 19.4489 3.93241 19.3024 3.80934C19.1559 3.68627 18.9572 3.61713 18.75 3.61713C18.5428 3.61713 18.3441 3.68627 18.1976 3.80934C18.0511 3.93241 17.9688 4.09933 17.9688 4.27338V9.03119H11.6621L6.86621 3.86979C6.76616 3.76195 6.62852 3.68306 6.47251 3.64412C6.31649 3.60519 6.1499 3.60815 5.99599 3.6526C5.84208 3.69705 5.70853 3.78077 5.61401 3.89206C5.51949 4.00335 5.4687 4.13667 5.46875 4.27338V9.03119H3.90625C3.69905 9.03119 3.50034 9.10033 3.35382 9.2234C3.20731 9.34648 3.125 9.5134 3.125 9.68744C3.125 9.86149 3.20731 10.0284 3.35382 10.1515C3.50034 10.2746 3.69905 10.3437 3.90625 10.3437H5.46875V11.6562H3.90625C3.69905 11.6562 3.50034 11.7253 3.35382 11.8484C3.20731 11.9715 3.125 12.1384 3.125 12.3124C3.125 12.4865 3.20731 12.6534 3.35382 12.7765C3.50034 12.8996 3.69905 12.9687 3.90625 12.9687H5.46875V17.7265C5.46875 17.9006 5.55106 18.0675 5.69757 18.1905C5.84409 18.3136 6.0428 18.3828 6.25 18.3828C6.4572 18.3828 6.65591 18.3136 6.80243 18.1905C6.94894 18.0675 7.03125 17.9006 7.03125 17.7265V12.9687H13.3379L18.1338 18.1301C18.2069 18.2088 18.3004 18.2725 18.4071 18.3163C18.5139 18.36 18.6312 18.3828 18.75 18.3828C18.8365 18.3829 18.9223 18.3707 19.0039 18.3467C19.1577 18.3023 19.2912 18.2186 19.3857 18.1075C19.4803 17.9963 19.5311 17.8631 19.5312 17.7265V12.9687H21.0938C21.301 12.9687 21.4997 12.8996 21.6462 12.7765C21.7927 12.6534 21.875 12.4865 21.875 12.3124C21.875 12.1384 21.7927 11.9715 21.6462 11.8484C21.4997 11.7253 21.301 11.6562 21.0938 11.6562ZM17.9688 10.3437V11.6562H14.1006L12.8809 10.3437H17.9688ZM7.03125 6.18061L9.67969 9.03119H7.03125V6.18061ZM7.03125 11.6562V10.3437H10.8994L12.1191 11.6562H7.03125ZM17.9688 15.8193L15.3203 12.9687H17.9688V15.8193Z" fill="black"/>
+                          </svg>15,300</p>
+                            <span class="stock">In Stock</span>
+                    </div> 
+                     <div class="extra-product-details">  
+                         <div id="related-image-1"><img src="images/Louis Vuitton Bag LV Virgil Abloh TRIO backpack M45670.png" alt="NINE FASHION" class="small-img"  id="related-img-1"></div>
+                        <div id="related-image-2"><img src="images/luis bag 1.webp" alt="NINE FASHION" class="small-img"  id="related-img-2"></div>
+                        <div id="related-image-3"><img src="images/luis bag2.webp" alt="NINE FASHION" class="small-img"  id="related-img-3"></div>
+                        <div id="related-image-4"><img src="images/luis bag3.jpeg" alt="NINE FASHION" class="small-img"  id="related-img-4"></div>
+                   
+                        <p class="brief-short">Experience the comfortability of the <strong>Black Hills Shoe UNIQUE</strong> making you enjoy the ability to move freely and elegantly.</p>
+                        <div class="item-id">
+                            <h3>Made in UK <br> product ID: <span class="product-id"> </span></h3>
+                            <span class="item-desc">Qorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.</span>
+                          </div>
+                          <div class="view-reviews">veiw reviews</div>
+                          <div class="add-review"><textarea name="add-rev" id="add-rev" cols="40" rows="10"></textarea></div>
+                    
+                        </div>  
+                </div>
+
+            </div>
+
+
+            <!-- --------- Black jewellery-->
+            <div class="attire-board">
+                <div class="attire-img">
+                    <img src="images/Black jewellery accessories.png" class="cart-card-img" alt="B&B Collections">
+                    <span class="quick-pick">Quick Pick</span>
+                </div>
+                <div class="attire-grading">
+                    <div class="attire-grading-1">
+                        <h3 class="attire-name">Black jewellery accessories</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="95" height="19" viewBox="0 0 95 19" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.6646 7.12771L9.5 0L7.33536 7.12771H0L5.93479 11.742L3.73214 19L9.5 14.5146L15.2679 19L13.0652 11.742L19 7.12771H11.6646Z" fill="#FCA120"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M30.6646 7.12771L28.5 0L26.3354 7.12771H19L24.9348 11.742L22.7321 19L28.5 14.5146L34.2679 19L32.0652 11.742L38 7.12771H30.6646Z" fill="#FCA120"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M49.6646 7.12771L47.5 0L45.3354 7.12771H38L43.9348 11.742L41.7321 19L47.5 14.5146L53.2679 19L51.0652 11.742L57 7.12771H49.6646Z" fill="#FCA120"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M68.6646 7.12771L66.5 0L64.3354 7.12771H57L62.9348 11.742L60.7321 19L66.5 14.5146L72.2679 19L70.0652 11.742L76 7.12771H68.6646Z" fill="#FCA120"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M87.6646 7.12771L85.5 0L83.3354 7.12771H76L81.9348 11.742L79.7321 19L85.5 14.5146L91.2679 19L89.0652 11.742L95 7.12771H87.6646Z" fill="#FCA120"/>
+                      </svg>
+                     
+                    </div>
+                    <p id="attire-owner">Al Karam</p>
+                    <div class="attire-grading-2">
+                        <p class="reviews">(4.1K) Customer <br>Reviews</p>
+                        <span class="add-cart">Add to Cart</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="21" viewBox="0 0 18 21" fill="none">
+                            <path d="M17.4348 4.87566C17.2813 4.53886 17.0614 4.25818 16.7967 4.06102C16.532 3.86385 16.2314 3.75692 15.9243 3.75066H4.55106L4.03571 1.20816C3.98364 0.962728 3.86747 0.746847 3.70613 0.595678C3.54479 0.44451 3.34777 0.36696 3.14717 0.37566H1.3701C1.13445 0.37566 0.908446 0.494186 0.741813 0.705165C0.575181 0.916143 0.481567 1.20229 0.481567 1.50066C0.481567 1.79903 0.575181 2.08518 0.741813 2.29615C0.908446 2.50713 1.13445 2.62566 1.3701 2.62566H2.47189L4.92424 14.1682C4.97631 14.4136 5.09248 14.6295 5.25382 14.7806C5.41516 14.9318 5.61218 15.0094 5.81278 15.0007H13.8096C13.9737 15 14.1344 14.9419 14.274 14.8327C14.4136 14.7235 14.5266 14.5674 14.6004 14.3819L17.5148 7.00191C17.6411 6.66668 17.6999 6.29706 17.686 5.92605C17.672 5.55504 17.5857 5.19418 17.4348 4.87566ZM13.2587 12.7507H6.48806L5.03975 6.00066H15.9243L13.2587 12.7507Z" fill="black"/>
+                            <path d="M5.36851 20.625C6.10459 20.625 6.70131 19.8695 6.70131 18.9375C6.70131 18.0055 6.10459 17.25 5.36851 17.25C4.63242 17.25 4.03571 18.0055 4.03571 18.9375C4.03571 19.8695 4.63242 20.625 5.36851 20.625Z" fill="black"/>
+                            <path d="M14.2537 20.625C14.9898 20.625 15.5865 19.8695 15.5865 18.9375C15.5865 18.0055 14.9898 17.25 14.2537 17.25C13.5176 17.25 12.9209 18.0055 12.9209 18.9375C12.9209 19.8695 13.5176 20.625 14.2537 20.625Z" fill="black"/>
+                          </svg>
+                    </div>
+                    <div class="attire-grading-3">
+                        <p class="previous-amount"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="22" viewBox="0 0 25 22" fill="none">
+                            <path d="M21.0938 11.6562H19.5312V10.3437H21.0938C21.301 10.3437 21.4997 10.2746 21.6462 10.1515C21.7927 10.0284 21.875 9.86149 21.875 9.68744C21.875 9.5134 21.7927 9.34648 21.6462 9.2234C21.4997 9.10033 21.301 9.03119 21.0938 9.03119H19.5312V4.27338C19.5312 4.09933 19.4489 3.93241 19.3024 3.80934C19.1559 3.68627 18.9572 3.61713 18.75 3.61713C18.5428 3.61713 18.3441 3.68627 18.1976 3.80934C18.0511 3.93241 17.9688 4.09933 17.9688 4.27338V9.03119H11.6621L6.86621 3.86979C6.76616 3.76195 6.62852 3.68306 6.47251 3.64412C6.31649 3.60519 6.1499 3.60815 5.99599 3.6526C5.84208 3.69705 5.70853 3.78077 5.61401 3.89206C5.51949 4.00335 5.4687 4.13667 5.46875 4.27338V9.03119H3.90625C3.69905 9.03119 3.50034 9.10033 3.35382 9.2234C3.20731 9.34648 3.125 9.5134 3.125 9.68744C3.125 9.86149 3.20731 10.0284 3.35382 10.1515C3.50034 10.2746 3.69905 10.3437 3.90625 10.3437H5.46875V11.6562H3.90625C3.69905 11.6562 3.50034 11.7253 3.35382 11.8484C3.20731 11.9715 3.125 12.1384 3.125 12.3124C3.125 12.4865 3.20731 12.6534 3.35382 12.7765C3.50034 12.8996 3.69905 12.9687 3.90625 12.9687H5.46875V17.7265C5.46875 17.9006 5.55106 18.0675 5.69757 18.1905C5.84409 18.3136 6.0428 18.3828 6.25 18.3828C6.4572 18.3828 6.65591 18.3136 6.80243 18.1905C6.94894 18.0675 7.03125 17.9006 7.03125 17.7265V12.9687H13.3379L18.1338 18.1301C18.2069 18.2088 18.3004 18.2725 18.4071 18.3163C18.5139 18.36 18.6312 18.3828 18.75 18.3828C18.8365 18.3829 18.9223 18.3707 19.0039 18.3467C19.1577 18.3023 19.2912 18.2186 19.3857 18.1075C19.4803 17.9963 19.5311 17.8631 19.5312 17.7265V12.9687H21.0938C21.301 12.9687 21.4997 12.8996 21.6462 12.7765C21.7927 12.6534 21.875 12.4865 21.875 12.3124C21.875 12.1384 21.7927 11.9715 21.6462 11.8484C21.4997 11.7253 21.301 11.6562 21.0938 11.6562ZM17.9688 10.3437V11.6562H14.1006L12.8809 10.3437H17.9688ZM7.03125 6.18061L9.67969 9.03119H7.03125V6.18061ZM7.03125 11.6562V10.3437H10.8994L12.1191 11.6562H7.03125ZM17.9688 15.8193L15.3203 12.9687H17.9688V15.8193Z" fill="black"/>
+                          </svg>21,320</p>
+                        <p class="current-amount"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="22" viewBox="0 0 25 22" fill="none">
+                            <path d="M21.0938 11.6562H19.5312V10.3437H21.0938C21.301 10.3437 21.4997 10.2746 21.6462 10.1515C21.7927 10.0284 21.875 9.86149 21.875 9.68744C21.875 9.5134 21.7927 9.34648 21.6462 9.2234C21.4997 9.10033 21.301 9.03119 21.0938 9.03119H19.5312V4.27338C19.5312 4.09933 19.4489 3.93241 19.3024 3.80934C19.1559 3.68627 18.9572 3.61713 18.75 3.61713C18.5428 3.61713 18.3441 3.68627 18.1976 3.80934C18.0511 3.93241 17.9688 4.09933 17.9688 4.27338V9.03119H11.6621L6.86621 3.86979C6.76616 3.76195 6.62852 3.68306 6.47251 3.64412C6.31649 3.60519 6.1499 3.60815 5.99599 3.6526C5.84208 3.69705 5.70853 3.78077 5.61401 3.89206C5.51949 4.00335 5.4687 4.13667 5.46875 4.27338V9.03119H3.90625C3.69905 9.03119 3.50034 9.10033 3.35382 9.2234C3.20731 9.34648 3.125 9.5134 3.125 9.68744C3.125 9.86149 3.20731 10.0284 3.35382 10.1515C3.50034 10.2746 3.69905 10.3437 3.90625 10.3437H5.46875V11.6562H3.90625C3.69905 11.6562 3.50034 11.7253 3.35382 11.8484C3.20731 11.9715 3.125 12.1384 3.125 12.3124C3.125 12.4865 3.20731 12.6534 3.35382 12.7765C3.50034 12.8996 3.69905 12.9687 3.90625 12.9687H5.46875V17.7265C5.46875 17.9006 5.55106 18.0675 5.69757 18.1905C5.84409 18.3136 6.0428 18.3828 6.25 18.3828C6.4572 18.3828 6.65591 18.3136 6.80243 18.1905C6.94894 18.0675 7.03125 17.9006 7.03125 17.7265V12.9687H13.3379L18.1338 18.1301C18.2069 18.2088 18.3004 18.2725 18.4071 18.3163C18.5139 18.36 18.6312 18.3828 18.75 18.3828C18.8365 18.3829 18.9223 18.3707 19.0039 18.3467C19.1577 18.3023 19.2912 18.2186 19.3857 18.1075C19.4803 17.9963 19.5311 17.8631 19.5312 17.7265V12.9687H21.0938C21.301 12.9687 21.4997 12.8996 21.6462 12.7765C21.7927 12.6534 21.875 12.4865 21.875 12.3124C21.875 12.1384 21.7927 11.9715 21.6462 11.8484C21.4997 11.7253 21.301 11.6562 21.0938 11.6562ZM17.9688 10.3437V11.6562H14.1006L12.8809 10.3437H17.9688ZM7.03125 6.18061L9.67969 9.03119H7.03125V6.18061ZM7.03125 11.6562V10.3437H10.8994L12.1191 11.6562H7.03125ZM17.9688 15.8193L15.3203 12.9687H17.9688V15.8193Z" fill="black"/>
+                          </svg>18,750</p>
+                            <span class="stock-out">Almost Sold Out</span>
+                    </div>
+                      <div class="extra-product-details">   
+                        <div id="related-image-1"><img src="images/Black jewellery accessories.png" alt="NINE FASHION" class="small-img"  id="related-img-1"></div>
+                        <div id="related-image-2"><img src="images/jewery1.jpg" alt="NINE FASHION" class="small-img"  id="related-img-2"></div>
+                        <div id="related-image-3"><img src="images/jewery2.jpg" alt="NINE FASHION" class="small-img"  id="related-img-3"></div>
+                        <div id="related-image-4"><img src="images/jewery3.webp" alt="NINE FASHION" class="small-img"  id="related-img-4"></div>
+                   
+                        <p class="brief-short">Experience the comfortability of the <strong>Black Hills Shoe UNIQUE</strong> making you enjoy the ability to move freely and elegantly.</p>
+                        <div class="item-id">
+                            <h3>Made in UK <br> product ID: <span class="product-id"> </span></h3>
+                            <span class="item-desc">Qorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.</span>
+                          </div>
+                          <div class="view-reviews">veiw reviews</div>
+                          <div class="add-review"><textarea name="add-rev" id="add-rev" cols="40" rows="10"></textarea></div>
+                    
+                        </div>  
+                </div>
+
+            </div>
+
+
+            <!-- ------- gold watch-->
+            <div class="attire-board">
+                <div class="attire-img">
+                    <img src="images/Component 20.png" class="cart-card-img" alt="B&B Collections">
+                    <span class="quick-pick">Quick Pick</span>
+                </div>
+                <div class="attire-grading">
+                    <div class="attire-grading-1">
+                        <h3 class="attire-name">Component 20 Gold Watch</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="95" height="19" viewBox="0 0 95 19" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.6646 7.12771L9.5 0L7.33536 7.12771H0L5.93479 11.742L3.73214 19L9.5 14.5146L15.2679 19L13.0652 11.742L19 7.12771H11.6646Z" fill="#FCA120"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M30.6646 7.12771L28.5 0L26.3354 7.12771H19L24.9348 11.742L22.7321 19L28.5 14.5146L34.2679 19L32.0652 11.742L38 7.12771H30.6646Z" fill="#FCA120"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M49.6646 7.12771L47.5 0L45.3354 7.12771H38L43.9348 11.742L41.7321 19L47.5 14.5146L53.2679 19L51.0652 11.742L57 7.12771H49.6646Z" fill="#FCA120"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M68.6646 7.12771L66.5 0L64.3354 7.12771H57L62.9348 11.742L60.7321 19L66.5 14.5146L72.2679 19L70.0652 11.742L76 7.12771H68.6646Z" fill="#FCA120"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M87.6646 7.12771L85.5 0L83.3354 7.12771H76L81.9348 11.742L79.7321 19L85.5 14.5146L91.2679 19L89.0652 11.742L95 7.12771H87.6646Z" fill="#FCA120"/>
+                      </svg>
+                     
+                    </div>
+                    <p id="attire-owner">Al Karam</p>
+                    <div class="attire-grading-2">
+                        <p class="reviews">(4.1K) Customer <br>Reviews</p>
+                        <span class="add-cart">Add to Cart</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="21" viewBox="0 0 18 21" fill="none">
+                            <path d="M17.4348 4.87566C17.2813 4.53886 17.0614 4.25818 16.7967 4.06102C16.532 3.86385 16.2314 3.75692 15.9243 3.75066H4.55106L4.03571 1.20816C3.98364 0.962728 3.86747 0.746847 3.70613 0.595678C3.54479 0.44451 3.34777 0.36696 3.14717 0.37566H1.3701C1.13445 0.37566 0.908446 0.494186 0.741813 0.705165C0.575181 0.916143 0.481567 1.20229 0.481567 1.50066C0.481567 1.79903 0.575181 2.08518 0.741813 2.29615C0.908446 2.50713 1.13445 2.62566 1.3701 2.62566H2.47189L4.92424 14.1682C4.97631 14.4136 5.09248 14.6295 5.25382 14.7806C5.41516 14.9318 5.61218 15.0094 5.81278 15.0007H13.8096C13.9737 15 14.1344 14.9419 14.274 14.8327C14.4136 14.7235 14.5266 14.5674 14.6004 14.3819L17.5148 7.00191C17.6411 6.66668 17.6999 6.29706 17.686 5.92605C17.672 5.55504 17.5857 5.19418 17.4348 4.87566ZM13.2587 12.7507H6.48806L5.03975 6.00066H15.9243L13.2587 12.7507Z" fill="black"/>
+                            <path d="M5.36851 20.625C6.10459 20.625 6.70131 19.8695 6.70131 18.9375C6.70131 18.0055 6.10459 17.25 5.36851 17.25C4.63242 17.25 4.03571 18.0055 4.03571 18.9375C4.03571 19.8695 4.63242 20.625 5.36851 20.625Z" fill="black"/>
+                            <path d="M14.2537 20.625C14.9898 20.625 15.5865 19.8695 15.5865 18.9375C15.5865 18.0055 14.9898 17.25 14.2537 17.25C13.5176 17.25 12.9209 18.0055 12.9209 18.9375C12.9209 19.8695 13.5176 20.625 14.2537 20.625Z" fill="black"/>
+                          </svg>
+                    </div>
+                    <div class="attire-grading-3">
+                        <p class="previous-amount"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="22" viewBox="0 0 25 22" fill="none">
+                            <path d="M21.0938 11.6562H19.5312V10.3437H21.0938C21.301 10.3437 21.4997 10.2746 21.6462 10.1515C21.7927 10.0284 21.875 9.86149 21.875 9.68744C21.875 9.5134 21.7927 9.34648 21.6462 9.2234C21.4997 9.10033 21.301 9.03119 21.0938 9.03119H19.5312V4.27338C19.5312 4.09933 19.4489 3.93241 19.3024 3.80934C19.1559 3.68627 18.9572 3.61713 18.75 3.61713C18.5428 3.61713 18.3441 3.68627 18.1976 3.80934C18.0511 3.93241 17.9688 4.09933 17.9688 4.27338V9.03119H11.6621L6.86621 3.86979C6.76616 3.76195 6.62852 3.68306 6.47251 3.64412C6.31649 3.60519 6.1499 3.60815 5.99599 3.6526C5.84208 3.69705 5.70853 3.78077 5.61401 3.89206C5.51949 4.00335 5.4687 4.13667 5.46875 4.27338V9.03119H3.90625C3.69905 9.03119 3.50034 9.10033 3.35382 9.2234C3.20731 9.34648 3.125 9.5134 3.125 9.68744C3.125 9.86149 3.20731 10.0284 3.35382 10.1515C3.50034 10.2746 3.69905 10.3437 3.90625 10.3437H5.46875V11.6562H3.90625C3.69905 11.6562 3.50034 11.7253 3.35382 11.8484C3.20731 11.9715 3.125 12.1384 3.125 12.3124C3.125 12.4865 3.20731 12.6534 3.35382 12.7765C3.50034 12.8996 3.69905 12.9687 3.90625 12.9687H5.46875V17.7265C5.46875 17.9006 5.55106 18.0675 5.69757 18.1905C5.84409 18.3136 6.0428 18.3828 6.25 18.3828C6.4572 18.3828 6.65591 18.3136 6.80243 18.1905C6.94894 18.0675 7.03125 17.9006 7.03125 17.7265V12.9687H13.3379L18.1338 18.1301C18.2069 18.2088 18.3004 18.2725 18.4071 18.3163C18.5139 18.36 18.6312 18.3828 18.75 18.3828C18.8365 18.3829 18.9223 18.3707 19.0039 18.3467C19.1577 18.3023 19.2912 18.2186 19.3857 18.1075C19.4803 17.9963 19.5311 17.8631 19.5312 17.7265V12.9687H21.0938C21.301 12.9687 21.4997 12.8996 21.6462 12.7765C21.7927 12.6534 21.875 12.4865 21.875 12.3124C21.875 12.1384 21.7927 11.9715 21.6462 11.8484C21.4997 11.7253 21.301 11.6562 21.0938 11.6562ZM17.9688 10.3437V11.6562H14.1006L12.8809 10.3437H17.9688ZM7.03125 6.18061L9.67969 9.03119H7.03125V6.18061ZM7.03125 11.6562V10.3437H10.8994L12.1191 11.6562H7.03125ZM17.9688 15.8193L15.3203 12.9687H17.9688V15.8193Z" fill="black"/>
+                          </svg>95,000</p>
+                        <p class="current-amount"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="22" viewBox="0 0 25 22" fill="none">
+                            <path d="M21.0938 11.6562H19.5312V10.3437H21.0938C21.301 10.3437 21.4997 10.2746 21.6462 10.1515C21.7927 10.0284 21.875 9.86149 21.875 9.68744C21.875 9.5134 21.7927 9.34648 21.6462 9.2234C21.4997 9.10033 21.301 9.03119 21.0938 9.03119H19.5312V4.27338C19.5312 4.09933 19.4489 3.93241 19.3024 3.80934C19.1559 3.68627 18.9572 3.61713 18.75 3.61713C18.5428 3.61713 18.3441 3.68627 18.1976 3.80934C18.0511 3.93241 17.9688 4.09933 17.9688 4.27338V9.03119H11.6621L6.86621 3.86979C6.76616 3.76195 6.62852 3.68306 6.47251 3.64412C6.31649 3.60519 6.1499 3.60815 5.99599 3.6526C5.84208 3.69705 5.70853 3.78077 5.61401 3.89206C5.51949 4.00335 5.4687 4.13667 5.46875 4.27338V9.03119H3.90625C3.69905 9.03119 3.50034 9.10033 3.35382 9.2234C3.20731 9.34648 3.125 9.5134 3.125 9.68744C3.125 9.86149 3.20731 10.0284 3.35382 10.1515C3.50034 10.2746 3.69905 10.3437 3.90625 10.3437H5.46875V11.6562H3.90625C3.69905 11.6562 3.50034 11.7253 3.35382 11.8484C3.20731 11.9715 3.125 12.1384 3.125 12.3124C3.125 12.4865 3.20731 12.6534 3.35382 12.7765C3.50034 12.8996 3.69905 12.9687 3.90625 12.9687H5.46875V17.7265C5.46875 17.9006 5.55106 18.0675 5.69757 18.1905C5.84409 18.3136 6.0428 18.3828 6.25 18.3828C6.4572 18.3828 6.65591 18.3136 6.80243 18.1905C6.94894 18.0675 7.03125 17.9006 7.03125 17.7265V12.9687H13.3379L18.1338 18.1301C18.2069 18.2088 18.3004 18.2725 18.4071 18.3163C18.5139 18.36 18.6312 18.3828 18.75 18.3828C18.8365 18.3829 18.9223 18.3707 19.0039 18.3467C19.1577 18.3023 19.2912 18.2186 19.3857 18.1075C19.4803 17.9963 19.5311 17.8631 19.5312 17.7265V12.9687H21.0938C21.301 12.9687 21.4997 12.8996 21.6462 12.7765C21.7927 12.6534 21.875 12.4865 21.875 12.3124C21.875 12.1384 21.7927 11.9715 21.6462 11.8484C21.4997 11.7253 21.301 11.6562 21.0938 11.6562ZM17.9688 10.3437V11.6562H14.1006L12.8809 10.3437H17.9688ZM7.03125 6.18061L9.67969 9.03119H7.03125V6.18061ZM7.03125 11.6562V10.3437H10.8994L12.1191 11.6562H7.03125ZM17.9688 15.8193L15.3203 12.9687H17.9688V15.8193Z" fill="black"/>
+                          </svg>89,800</p>
+                            <span class="stock">In Stock</span>
+                    </div>
+                      <div class="extra-product-details">  
+                         <div id="related-image-1"><img src="images/Component 20.png" alt="NINE FASHION" class="small-img"  id="related-img-1"></div>
+                        <div id="related-image-2"><img src="images/gold watch1.jpg" alt="NINE FASHION" class="small-img"  id="related-img-2"></div>
+                        <div id="related-image-3"><img src="images/gold watch2.webp" alt="NINE FASHION" class="small-img"  id="related-img-3"></div>
+                        <div id="related-image-4"><img src="images/gold watch3.webp" alt="NINE FASHION" class="small-img"  id="related-img-4"></div>
+                   
+                        <p class="brief-short">Experience the comfortability of the <strong>Black Hills Shoe UNIQUE</strong> making you enjoy the ability to move freely and elegantly.</p>
+                        <div class="item-id">
+                            <h3>Made in UK <br> product ID: <span class="product-id"> </span></h3>
+                            <span class="item-desc">Qorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.</span>
+                          </div>
+                          <div class="view-reviews">veiw reviews</div>
+                          <div class="add-review"><textarea name="add-rev" id="add-rev" cols="40" rows="10"></textarea></div>
+                    
+                        </div>  
+                </div>
+
+            </div>
+
+
+            <!-- ----- woman scandals-->
+            <div class="attire-board">
+                <div class="attire-img">
+                <img src="images/female shoe.png" class="cart-card-img" alt="B&B Collections">
+                <span class="quick-pick">Quick Pick</span>
+            </div>
+                <div class="attire-grading">
+                    <div class="attire-grading-1">
+                        <h3 class="attire-name">Women Ankle Strap Sandals, Polyester Chunky Heeled Elegant Sandals Black</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="95" height="19" viewBox="0 0 95 19" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.6646 7.12771L9.5 0L7.33536 7.12771H0L5.93479 11.742L3.73214 19L9.5 14.5146L15.2679 19L13.0652 11.742L19 7.12771H11.6646Z" fill="#FCA120"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M30.6646 7.12771L28.5 0L26.3354 7.12771H19L24.9348 11.742L22.7321 19L28.5 14.5146L34.2679 19L32.0652 11.742L38 7.12771H30.6646Z" fill="#FCA120"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M49.6646 7.12771L47.5 0L45.3354 7.12771H38L43.9348 11.742L41.7321 19L47.5 14.5146L53.2679 19L51.0652 11.742L57 7.12771H49.6646Z" fill="#FCA120"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M68.6646 7.12771L66.5 0L64.3354 7.12771H57L62.9348 11.742L60.7321 19L66.5 14.5146L72.2679 19L70.0652 11.742L76 7.12771H68.6646Z" fill="#FCA120"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M87.6646 7.12771L85.5 0L83.3354 7.12771H76L81.9348 11.742L79.7321 19L85.5 14.5146L91.2679 19L89.0652 11.742L95 7.12771H87.6646Z" fill="#FCA120"/>
+                      </svg>
+                     
+                    </div>
+                    <p id="attire-owner">Al Karam</p>
+                    <div class="attire-grading-2">
+                        <p class="reviews">(4.1K) Customer <br>Reviews</p>
+                        <span class="add-cart">Add to Cart</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="21" viewBox="0 0 18 21" fill="none">
+                            <path d="M17.4348 4.87566C17.2813 4.53886 17.0614 4.25818 16.7967 4.06102C16.532 3.86385 16.2314 3.75692 15.9243 3.75066H4.55106L4.03571 1.20816C3.98364 0.962728 3.86747 0.746847 3.70613 0.595678C3.54479 0.44451 3.34777 0.36696 3.14717 0.37566H1.3701C1.13445 0.37566 0.908446 0.494186 0.741813 0.705165C0.575181 0.916143 0.481567 1.20229 0.481567 1.50066C0.481567 1.79903 0.575181 2.08518 0.741813 2.29615C0.908446 2.50713 1.13445 2.62566 1.3701 2.62566H2.47189L4.92424 14.1682C4.97631 14.4136 5.09248 14.6295 5.25382 14.7806C5.41516 14.9318 5.61218 15.0094 5.81278 15.0007H13.8096C13.9737 15 14.1344 14.9419 14.274 14.8327C14.4136 14.7235 14.5266 14.5674 14.6004 14.3819L17.5148 7.00191C17.6411 6.66668 17.6999 6.29706 17.686 5.92605C17.672 5.55504 17.5857 5.19418 17.4348 4.87566ZM13.2587 12.7507H6.48806L5.03975 6.00066H15.9243L13.2587 12.7507Z" fill="black"/>
+                            <path d="M5.36851 20.625C6.10459 20.625 6.70131 19.8695 6.70131 18.9375C6.70131 18.0055 6.10459 17.25 5.36851 17.25C4.63242 17.25 4.03571 18.0055 4.03571 18.9375C4.03571 19.8695 4.63242 20.625 5.36851 20.625Z" fill="black"/>
+                            <path d="M14.2537 20.625C14.9898 20.625 15.5865 19.8695 15.5865 18.9375C15.5865 18.0055 14.9898 17.25 14.2537 17.25C13.5176 17.25 12.9209 18.0055 12.9209 18.9375C12.9209 19.8695 13.5176 20.625 14.2537 20.625Z" fill="black"/>
+                          </svg>
+                    </div>
+                    <div class="attire-grading-3">
+                        <p class="previous-amount"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="22" viewBox="0 0 25 22" fill="none">
+                            <path d="M21.0938 11.6562H19.5312V10.3437H21.0938C21.301 10.3437 21.4997 10.2746 21.6462 10.1515C21.7927 10.0284 21.875 9.86149 21.875 9.68744C21.875 9.5134 21.7927 9.34648 21.6462 9.2234C21.4997 9.10033 21.301 9.03119 21.0938 9.03119H19.5312V4.27338C19.5312 4.09933 19.4489 3.93241 19.3024 3.80934C19.1559 3.68627 18.9572 3.61713 18.75 3.61713C18.5428 3.61713 18.3441 3.68627 18.1976 3.80934C18.0511 3.93241 17.9688 4.09933 17.9688 4.27338V9.03119H11.6621L6.86621 3.86979C6.76616 3.76195 6.62852 3.68306 6.47251 3.64412C6.31649 3.60519 6.1499 3.60815 5.99599 3.6526C5.84208 3.69705 5.70853 3.78077 5.61401 3.89206C5.51949 4.00335 5.4687 4.13667 5.46875 4.27338V9.03119H3.90625C3.69905 9.03119 3.50034 9.10033 3.35382 9.2234C3.20731 9.34648 3.125 9.5134 3.125 9.68744C3.125 9.86149 3.20731 10.0284 3.35382 10.1515C3.50034 10.2746 3.69905 10.3437 3.90625 10.3437H5.46875V11.6562H3.90625C3.69905 11.6562 3.50034 11.7253 3.35382 11.8484C3.20731 11.9715 3.125 12.1384 3.125 12.3124C3.125 12.4865 3.20731 12.6534 3.35382 12.7765C3.50034 12.8996 3.69905 12.9687 3.90625 12.9687H5.46875V17.7265C5.46875 17.9006 5.55106 18.0675 5.69757 18.1905C5.84409 18.3136 6.0428 18.3828 6.25 18.3828C6.4572 18.3828 6.65591 18.3136 6.80243 18.1905C6.94894 18.0675 7.03125 17.9006 7.03125 17.7265V12.9687H13.3379L18.1338 18.1301C18.2069 18.2088 18.3004 18.2725 18.4071 18.3163C18.5139 18.36 18.6312 18.3828 18.75 18.3828C18.8365 18.3829 18.9223 18.3707 19.0039 18.3467C19.1577 18.3023 19.2912 18.2186 19.3857 18.1075C19.4803 17.9963 19.5311 17.8631 19.5312 17.7265V12.9687H21.0938C21.301 12.9687 21.4997 12.8996 21.6462 12.7765C21.7927 12.6534 21.875 12.4865 21.875 12.3124C21.875 12.1384 21.7927 11.9715 21.6462 11.8484C21.4997 11.7253 21.301 11.6562 21.0938 11.6562ZM17.9688 10.3437V11.6562H14.1006L12.8809 10.3437H17.9688ZM7.03125 6.18061L9.67969 9.03119H7.03125V6.18061ZM7.03125 11.6562V10.3437H10.8994L12.1191 11.6562H7.03125ZM17.9688 15.8193L15.3203 12.9687H17.9688V15.8193Z" fill="black"/>
+                          </svg>30,600</p>
+                        <p class="current-amount"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="22" viewBox="0 0 25 22" fill="none">
+                            <path d="M21.0938 11.6562H19.5312V10.3437H21.0938C21.301 10.3437 21.4997 10.2746 21.6462 10.1515C21.7927 10.0284 21.875 9.86149 21.875 9.68744C21.875 9.5134 21.7927 9.34648 21.6462 9.2234C21.4997 9.10033 21.301 9.03119 21.0938 9.03119H19.5312V4.27338C19.5312 4.09933 19.4489 3.93241 19.3024 3.80934C19.1559 3.68627 18.9572 3.61713 18.75 3.61713C18.5428 3.61713 18.3441 3.68627 18.1976 3.80934C18.0511 3.93241 17.9688 4.09933 17.9688 4.27338V9.03119H11.6621L6.86621 3.86979C6.76616 3.76195 6.62852 3.68306 6.47251 3.64412C6.31649 3.60519 6.1499 3.60815 5.99599 3.6526C5.84208 3.69705 5.70853 3.78077 5.61401 3.89206C5.51949 4.00335 5.4687 4.13667 5.46875 4.27338V9.03119H3.90625C3.69905 9.03119 3.50034 9.10033 3.35382 9.2234C3.20731 9.34648 3.125 9.5134 3.125 9.68744C3.125 9.86149 3.20731 10.0284 3.35382 10.1515C3.50034 10.2746 3.69905 10.3437 3.90625 10.3437H5.46875V11.6562H3.90625C3.69905 11.6562 3.50034 11.7253 3.35382 11.8484C3.20731 11.9715 3.125 12.1384 3.125 12.3124C3.125 12.4865 3.20731 12.6534 3.35382 12.7765C3.50034 12.8996 3.69905 12.9687 3.90625 12.9687H5.46875V17.7265C5.46875 17.9006 5.55106 18.0675 5.69757 18.1905C5.84409 18.3136 6.0428 18.3828 6.25 18.3828C6.4572 18.3828 6.65591 18.3136 6.80243 18.1905C6.94894 18.0675 7.03125 17.9006 7.03125 17.7265V12.9687H13.3379L18.1338 18.1301C18.2069 18.2088 18.3004 18.2725 18.4071 18.3163C18.5139 18.36 18.6312 18.3828 18.75 18.3828C18.8365 18.3829 18.9223 18.3707 19.0039 18.3467C19.1577 18.3023 19.2912 18.2186 19.3857 18.1075C19.4803 17.9963 19.5311 17.8631 19.5312 17.7265V12.9687H21.0938C21.301 12.9687 21.4997 12.8996 21.6462 12.7765C21.7927 12.6534 21.875 12.4865 21.875 12.3124C21.875 12.1384 21.7927 11.9715 21.6462 11.8484C21.4997 11.7253 21.301 11.6562 21.0938 11.6562ZM17.9688 10.3437V11.6562H14.1006L12.8809 10.3437H17.9688ZM7.03125 6.18061L9.67969 9.03119H7.03125V6.18061ZM7.03125 11.6562V10.3437H10.8994L12.1191 11.6562H7.03125ZM17.9688 15.8193L15.3203 12.9687H17.9688V15.8193Z" fill="black"/>
+                          </svg>25,800</p>
+                            <span class="stock-out">Almost Sold Out</span>
+                    </div> 
+                     <div class="extra-product-details">  
+                         <div id="related-image-1"><img src="images/female shoe.png" alt="NINE FASHION" class="small-img"  id="related-img-1"></div>
+                        <div id="related-image-2"><img src="images/female shoe1.png" alt="NINE FASHION" class="small-img"  id="related-img-2"></div>
+                        <div id="related-image-3"><img src="images/black shoe related.png" alt="NINE FASHION" class="small-img"  id="related-img-3"></div>
+                        <div id="related-image-4"><img src="images/shoe black female related.png" alt="NINE FASHION" class="small-img"  id="related-img-4"></div>
+                 
+                        <p class="brief-short">Experience the comfortability of the <strong>Black Hills Shoe UNIQUE</strong> making you enjoy the ability to move freely and elegantly.</p>
+                        <div class="item-id">
+                            <h3>Made in UK <br> product ID: <span class="product-id"> </span></h3>
+                            <span class="item-desc">Qorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.</span>
+                          </div>
+                          <div class="view-reviews">veiw reviews</div>
+                          <div class="add-review"><textarea name="add-rev" id="add-rev" cols="40" rows="10"></textarea></div>
+                    
+                        </div>  
+                </div>
+
+            </div>
+
+            
+            <!--     ------luxurious-shiny watch-->
+            <div class="attire-board">
+                <div class="attire-img">
+                <img src="images/Elegant watch with a silver and golden chain under the lights isolated.png" class="cart-card-img" alt="B&B Collections">
+                <span class="quick-pick">Quick Pick</span>
+            </div>
+                <div class="attire-grading">
+                    <div class="attire-grading-1">
+                        <h3 class="attire-name">luxurious-shiny-golden-chain</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="95" height="19" viewBox="0 0 95 19" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.6646 7.12771L9.5 0L7.33536 7.12771H0L5.93479 11.742L3.73214 19L9.5 14.5146L15.2679 19L13.0652 11.742L19 7.12771H11.6646Z" fill="#FCA120"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M30.6646 7.12771L28.5 0L26.3354 7.12771H19L24.9348 11.742L22.7321 19L28.5 14.5146L34.2679 19L32.0652 11.742L38 7.12771H30.6646Z" fill="#FCA120"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M49.6646 7.12771L47.5 0L45.3354 7.12771H38L43.9348 11.742L41.7321 19L47.5 14.5146L53.2679 19L51.0652 11.742L57 7.12771H49.6646Z" fill="#FCA120"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M68.6646 7.12771L66.5 0L64.3354 7.12771H57L62.9348 11.742L60.7321 19L66.5 14.5146L72.2679 19L70.0652 11.742L76 7.12771H68.6646Z" fill="#FCA120"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M87.6646 7.12771L85.5 0L83.3354 7.12771H76L81.9348 11.742L79.7321 19L85.5 14.5146L91.2679 19L89.0652 11.742L95 7.12771H87.6646Z" fill="#FCA120"/>
+                      </svg>
+                     
+                    </div>
+                    <p id="attire-owner">Al Karam</p>
+                    <div class="attire-grading-2">
+                        <p class="reviews">(4.1K) Customer <br>Reviews</p>
+                        <span class="add-cart">Add to Cart</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="21" viewBox="0 0 18 21" fill="none">
+                            <path d="M17.4348 4.87566C17.2813 4.53886 17.0614 4.25818 16.7967 4.06102C16.532 3.86385 16.2314 3.75692 15.9243 3.75066H4.55106L4.03571 1.20816C3.98364 0.962728 3.86747 0.746847 3.70613 0.595678C3.54479 0.44451 3.34777 0.36696 3.14717 0.37566H1.3701C1.13445 0.37566 0.908446 0.494186 0.741813 0.705165C0.575181 0.916143 0.481567 1.20229 0.481567 1.50066C0.481567 1.79903 0.575181 2.08518 0.741813 2.29615C0.908446 2.50713 1.13445 2.62566 1.3701 2.62566H2.47189L4.92424 14.1682C4.97631 14.4136 5.09248 14.6295 5.25382 14.7806C5.41516 14.9318 5.61218 15.0094 5.81278 15.0007H13.8096C13.9737 15 14.1344 14.9419 14.274 14.8327C14.4136 14.7235 14.5266 14.5674 14.6004 14.3819L17.5148 7.00191C17.6411 6.66668 17.6999 6.29706 17.686 5.92605C17.672 5.55504 17.5857 5.19418 17.4348 4.87566ZM13.2587 12.7507H6.48806L5.03975 6.00066H15.9243L13.2587 12.7507Z" fill="black"/>
+                            <path d="M5.36851 20.625C6.10459 20.625 6.70131 19.8695 6.70131 18.9375C6.70131 18.0055 6.10459 17.25 5.36851 17.25C4.63242 17.25 4.03571 18.0055 4.03571 18.9375C4.03571 19.8695 4.63242 20.625 5.36851 20.625Z" fill="black"/>
+                            <path d="M14.2537 20.625C14.9898 20.625 15.5865 19.8695 15.5865 18.9375C15.5865 18.0055 14.9898 17.25 14.2537 17.25C13.5176 17.25 12.9209 18.0055 12.9209 18.9375C12.9209 19.8695 13.5176 20.625 14.2537 20.625Z" fill="black"/>
+                          </svg>
+                    </div>
+                    <div class="attire-grading-3">
+                        <p class="previous-amount"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="22" viewBox="0 0 25 22" fill="none">
+                            <path d="M21.0938 11.6562H19.5312V10.3437H21.0938C21.301 10.3437 21.4997 10.2746 21.6462 10.1515C21.7927 10.0284 21.875 9.86149 21.875 9.68744C21.875 9.5134 21.7927 9.34648 21.6462 9.2234C21.4997 9.10033 21.301 9.03119 21.0938 9.03119H19.5312V4.27338C19.5312 4.09933 19.4489 3.93241 19.3024 3.80934C19.1559 3.68627 18.9572 3.61713 18.75 3.61713C18.5428 3.61713 18.3441 3.68627 18.1976 3.80934C18.0511 3.93241 17.9688 4.09933 17.9688 4.27338V9.03119H11.6621L6.86621 3.86979C6.76616 3.76195 6.62852 3.68306 6.47251 3.64412C6.31649 3.60519 6.1499 3.60815 5.99599 3.6526C5.84208 3.69705 5.70853 3.78077 5.61401 3.89206C5.51949 4.00335 5.4687 4.13667 5.46875 4.27338V9.03119H3.90625C3.69905 9.03119 3.50034 9.10033 3.35382 9.2234C3.20731 9.34648 3.125 9.5134 3.125 9.68744C3.125 9.86149 3.20731 10.0284 3.35382 10.1515C3.50034 10.2746 3.69905 10.3437 3.90625 10.3437H5.46875V11.6562H3.90625C3.69905 11.6562 3.50034 11.7253 3.35382 11.8484C3.20731 11.9715 3.125 12.1384 3.125 12.3124C3.125 12.4865 3.20731 12.6534 3.35382 12.7765C3.50034 12.8996 3.69905 12.9687 3.90625 12.9687H5.46875V17.7265C5.46875 17.9006 5.55106 18.0675 5.69757 18.1905C5.84409 18.3136 6.0428 18.3828 6.25 18.3828C6.4572 18.3828 6.65591 18.3136 6.80243 18.1905C6.94894 18.0675 7.03125 17.9006 7.03125 17.7265V12.9687H13.3379L18.1338 18.1301C18.2069 18.2088 18.3004 18.2725 18.4071 18.3163C18.5139 18.36 18.6312 18.3828 18.75 18.3828C18.8365 18.3829 18.9223 18.3707 19.0039 18.3467C19.1577 18.3023 19.2912 18.2186 19.3857 18.1075C19.4803 17.9963 19.5311 17.8631 19.5312 17.7265V12.9687H21.0938C21.301 12.9687 21.4997 12.8996 21.6462 12.7765C21.7927 12.6534 21.875 12.4865 21.875 12.3124C21.875 12.1384 21.7927 11.9715 21.6462 11.8484C21.4997 11.7253 21.301 11.6562 21.0938 11.6562ZM17.9688 10.3437V11.6562H14.1006L12.8809 10.3437H17.9688ZM7.03125 6.18061L9.67969 9.03119H7.03125V6.18061ZM7.03125 11.6562V10.3437H10.8994L12.1191 11.6562H7.03125ZM17.9688 15.8193L15.3203 12.9687H17.9688V15.8193Z" fill="black"/>
+                          </svg>156,000</p>
+                        <p class="current-amount"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="22" viewBox="0 0 25 22" fill="none">
+                            <path d="M21.0938 11.6562H19.5312V10.3437H21.0938C21.301 10.3437 21.4997 10.2746 21.6462 10.1515C21.7927 10.0284 21.875 9.86149 21.875 9.68744C21.875 9.5134 21.7927 9.34648 21.6462 9.2234C21.4997 9.10033 21.301 9.03119 21.0938 9.03119H19.5312V4.27338C19.5312 4.09933 19.4489 3.93241 19.3024 3.80934C19.1559 3.68627 18.9572 3.61713 18.75 3.61713C18.5428 3.61713 18.3441 3.68627 18.1976 3.80934C18.0511 3.93241 17.9688 4.09933 17.9688 4.27338V9.03119H11.6621L6.86621 3.86979C6.76616 3.76195 6.62852 3.68306 6.47251 3.64412C6.31649 3.60519 6.1499 3.60815 5.99599 3.6526C5.84208 3.69705 5.70853 3.78077 5.61401 3.89206C5.51949 4.00335 5.4687 4.13667 5.46875 4.27338V9.03119H3.90625C3.69905 9.03119 3.50034 9.10033 3.35382 9.2234C3.20731 9.34648 3.125 9.5134 3.125 9.68744C3.125 9.86149 3.20731 10.0284 3.35382 10.1515C3.50034 10.2746 3.69905 10.3437 3.90625 10.3437H5.46875V11.6562H3.90625C3.69905 11.6562 3.50034 11.7253 3.35382 11.8484C3.20731 11.9715 3.125 12.1384 3.125 12.3124C3.125 12.4865 3.20731 12.6534 3.35382 12.7765C3.50034 12.8996 3.69905 12.9687 3.90625 12.9687H5.46875V17.7265C5.46875 17.9006 5.55106 18.0675 5.69757 18.1905C5.84409 18.3136 6.0428 18.3828 6.25 18.3828C6.4572 18.3828 6.65591 18.3136 6.80243 18.1905C6.94894 18.0675 7.03125 17.9006 7.03125 17.7265V12.9687H13.3379L18.1338 18.1301C18.2069 18.2088 18.3004 18.2725 18.4071 18.3163C18.5139 18.36 18.6312 18.3828 18.75 18.3828C18.8365 18.3829 18.9223 18.3707 19.0039 18.3467C19.1577 18.3023 19.2912 18.2186 19.3857 18.1075C19.4803 17.9963 19.5311 17.8631 19.5312 17.7265V12.9687H21.0938C21.301 12.9687 21.4997 12.8996 21.6462 12.7765C21.7927 12.6534 21.875 12.4865 21.875 12.3124C21.875 12.1384 21.7927 11.9715 21.6462 11.8484C21.4997 11.7253 21.301 11.6562 21.0938 11.6562ZM17.9688 10.3437V11.6562H14.1006L12.8809 10.3437H17.9688ZM7.03125 6.18061L9.67969 9.03119H7.03125V6.18061ZM7.03125 11.6562V10.3437H10.8994L12.1191 11.6562H7.03125ZM17.9688 15.8193L15.3203 12.9687H17.9688V15.8193Z" fill="black"/>
+                          </svg>154,700</p>
+                            <span class="stock">In Stock</span>
+                    </div> 
+                     <div class="extra-product-details">  
+                         <div id="related-image-1"><img src="images/Elegant watch with a silver and golden chain under the lights isolated.png" alt="NINE FASHION" class="small-img"  id="related-img-1"></div>
+                        <div id="related-image-2"><img src="images/luxurious1.jpg" alt="NINE FASHION" class="small-img"  id="related-img-2"></div>
+                        <div id="related-image-3"><img src="images/luxurious2.webp" alt="NINE FASHION" class="small-img"  id="related-img-3"></div>
+                        <div id="related-image-4"><img src="images/luxurious3.webp" alt="NINE FASHION" class="small-img"  id="related-img-4"></div>
+                    
+                        <p class="brief-short">Experience the comfortability of the <strong>Black Hills Shoe UNIQUE</strong> making you enjoy the ability to move freely and elegantly.</p>
+                        <div class="item-id">
+                            <h3>Made in UK <br> product ID: <span class="product-id"> </span></h3>
+                            <span class="item-desc">Qorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.</span>
+                          </div>
+                          <div class="view-reviews">veiw reviews</div>
+                          <div class="add-review"><textarea name="add-rev" id="add-rev" cols="40" rows="10"></textarea></div>
+                    
+                        </div>    
+                </div>
+
+            </div>
+        </div>
+   </div>
+
+
+
+
+
+
+   <!-- testimonials-------- -->
+   <div id="testimonials">
+        <div class="testimony-details">
+            <div class="high-quality">
+                <svg xmlns="http://www.w3.org/2000/svg" width="42" height="40" viewBox="0 0 42 40" fill="none">
+                    <path d="M14.266 12.2994L13.362 17.5706C13.3145 17.818 13.3379 18.074 13.4296 18.3086C13.5213 18.5432 13.6775 18.7468 13.88 18.8957C14.0791 19.0455 14.316 19.1363 14.5638 19.158C14.8116 19.1797 15.0606 19.1313 15.2825 19.0184L20.1691 16.5644L24.8016 18.989C25.0227 19.1087 25.273 19.1636 25.5237 19.1472C25.7744 19.1309 26.0155 19.044 26.2193 18.8966C26.4232 18.7492 26.5817 18.5471 26.6766 18.3135C26.7716 18.0798 26.7992 17.8241 26.7562 17.5755L25.8522 12.324L29.654 8.58899C29.8327 8.41464 29.9593 8.19351 30.0193 7.95065C30.0793 7.70778 30.0704 7.45289 29.9936 7.21484C29.9168 6.97679 29.7752 6.7651 29.5847 6.60374C29.3943 6.44239 29.1627 6.33782 28.9161 6.30188L23.6141 5.52642L21.249 0.736242C21.1369 0.513151 20.965 0.325987 20.7525 0.195895C20.5401 0.0658022 20.2957 -0.00203503 20.0469 4.65018e-05C19.799 -0.00111877 19.5556 0.0671508 19.3441 0.197193C19.1326 0.327234 18.9614 0.513901 18.8497 0.736242L16.4797 5.52642L11.1777 6.29206C10.9287 6.32582 10.6943 6.42951 10.5014 6.5912C10.3085 6.75289 10.165 6.966 10.0874 7.206C10.0098 7.446 10.0012 7.70314 10.0627 7.94781C10.1242 8.19248 10.2532 8.41473 10.4349 8.58899L14.266 12.2994ZM17.0661 6.9301C17.1811 6.91079 17.2899 6.86421 17.3833 6.79421C17.4768 6.72422 17.5523 6.63283 17.6036 6.52764L20.0469 1.61968L22.4902 6.52764C22.5429 6.63466 22.6207 6.72722 22.7169 6.79733C22.813 6.86744 22.9248 6.913 23.0424 6.9301L28.4568 7.71537L24.5475 11.5141C24.4615 11.5972 24.3969 11.7 24.3594 11.8138C24.322 11.9275 24.3127 12.0487 24.3325 12.1669L25.256 17.5411L20.5209 15.0626C20.4173 15.0092 20.3026 14.9813 20.1862 14.9813C20.0698 14.9813 19.955 15.0092 19.8514 15.0626L14.8671 17.5755L15.7956 12.1767C15.8118 12.0589 15.7995 11.9388 15.7595 11.8269C15.7195 11.7149 15.653 11.6143 15.5659 11.5338L11.6566 7.735L17.0661 6.9301Z" fill="#C470ED"/>
+                    <path d="M40.5707 21.8407C40.3252 21.556 40.0262 21.3227 39.6908 21.1542C39.3554 20.9858 38.9901 20.8855 38.616 20.8591C38.242 20.8333 37.8666 20.8834 37.5123 21.0066C37.158 21.1297 36.8321 21.3232 36.5539 21.5757L29.7859 27.6812C29.7683 27.5455 29.7422 27.4111 29.7077 27.2788C29.594 26.8535 29.3902 26.4579 29.1102 26.1191C28.8302 25.7803 28.4806 25.5062 28.0854 25.3156C26.8295 24.7855 25.085 25.0309 23.3991 25.2763C22.4131 25.4702 21.406 25.5329 20.4036 25.4628C19.9576 25.3504 19.5262 25.1857 19.1185 24.972C17.8382 24.3978 16.0839 23.6125 12.8196 24.334C11.1343 24.7712 9.58626 25.6288 8.31904 26.8272V25.0309C8.31904 24.8357 8.24181 24.6484 8.10435 24.5103C7.96689 24.3723 7.78045 24.2947 7.58605 24.2947H1.23345C1.03905 24.2947 0.852609 24.3723 0.715146 24.5103C0.577683 24.6484 0.500458 24.8357 0.500458 25.0309V39.264C0.500458 39.4593 0.577683 39.6465 0.715146 39.7846C0.852609 39.9226 1.03905 40.0002 1.23345 40.0002H7.58605C7.78045 40.0002 7.96689 39.9226 8.10435 39.7846C8.24181 39.6465 8.31904 39.4593 8.31904 39.264V38.2432C9.29636 38.4738 13.7334 39.5094 17.0123 39.5094C20.433 39.5094 24.6159 38.7241 27.1911 37.6002C31.936 35.534 39.7497 26.6162 40.385 25.8947C40.9354 25.3763 41.2627 24.6627 41.2974 23.9056C41.3321 23.1485 41.0714 22.4077 40.5707 21.8407ZM6.85306 38.5278H1.96644V25.7671H6.85306V38.5278ZM39.3686 24.8297L39.3002 24.8984C39.2171 24.9916 31.1444 34.2775 26.595 36.2554C24.2005 37.3008 20.2522 38.037 17.0123 38.037C13.5917 38.037 8.54383 36.7806 8.49496 36.7708C8.43653 36.7636 8.37746 36.7636 8.31904 36.7708V28.918C8.85168 28.3045 10.733 26.3119 13.1372 25.7818C15.9324 25.1683 17.3104 25.7818 18.5125 26.3266C19.0311 26.5832 19.5793 26.7744 20.1446 26.8959C21.2987 27.0053 22.4625 26.9458 23.5995 26.7193C25.0215 26.5229 26.6341 26.2972 27.5088 26.6653C27.6968 26.7738 27.8613 26.9193 27.9922 27.093C28.1232 27.2667 28.218 27.4651 28.2711 27.6763C28.3421 27.966 28.3432 28.2686 28.2743 28.5588C28.2055 28.849 28.0687 29.1186 27.8753 29.345C26.7611 30.8469 19.9834 33.0947 17.2029 32.8738C17.0085 32.8589 16.8161 32.9221 16.6681 33.0496C16.5201 33.177 16.4286 33.3583 16.4137 33.5536C16.3988 33.7488 16.4617 33.942 16.5887 34.0907C16.7156 34.2393 16.8961 34.3313 17.0905 34.3462C17.242 34.3462 17.4081 34.3462 17.5792 34.3462C20.6138 34.3462 26.4093 32.5499 28.5301 30.7536L28.5838 30.7242L37.497 22.6751C37.7649 22.4355 38.1162 22.312 38.4743 22.3315C38.6618 22.3429 38.845 22.3923 39.0129 22.4766C39.1809 22.561 39.3301 22.6786 39.4517 22.8223C39.7026 23.101 39.8345 23.4676 39.819 23.8431C39.8034 24.2185 39.6417 24.5728 39.3686 24.8297Z" fill="#C470ED"/>
+                  </svg>
+                  <h4>High Quality</h4>
+                  <p>crafted from top materials</p>
+            </div>
+            <div class="warrany-protection">
+                <svg xmlns="http://www.w3.org/2000/svg" width="31" height="40" viewBox="0 0 31 40" fill="none">
+                    <path d="M30.5218 14.6007L27.9165 11.7554L28.7317 8.00332C28.8074 7.67054 28.6057 7.33776 28.2779 7.22961L24.5885 6.04825L23.4035 2.39601C23.2942 2.07155 22.9581 1.8802 22.6219 1.94676L18.8316 2.75374L15.9574 0.174709C15.7053 -0.0582363 15.3103 -0.0582363 15.0581 0.174709L12.1839 2.75374L8.39364 1.94676C8.05748 1.87188 7.72131 2.07155 7.61206 2.39601L6.41867 6.04825L2.72084 7.22961C2.39307 7.33776 2.19979 7.67054 2.26702 8.00332L3.08221 11.7554L0.476933 14.6007C0.241616 14.8502 0.241616 15.2413 0.476933 15.4908L3.08221 18.3361L2.26702 22.0882C2.19138 22.421 2.39307 22.7537 2.72084 22.8619L6.41026 24.0433L6.56154 24.5175L2.17457 36.5557C2.07372 36.822 2.15776 37.1215 2.38468 37.2962C2.60318 37.4709 2.91413 37.4958 3.15785 37.3461L7.63727 34.6339L9.32651 39.5508C9.41895 39.817 9.67108 40 9.95682 40H9.96522C10.251 40 10.5031 39.8253 10.5955 39.5591L14.3522 29.2762L15.0581 29.9085C15.1842 30.025 15.3439 30.0832 15.512 30.0832C15.6801 30.0832 15.8313 30.025 15.9658 29.9085L16.6717 29.2762L20.4284 39.5591C20.5208 39.8253 20.7814 40 21.0587 40H21.0671C21.3529 40 21.605 39.817 21.6974 39.5508L23.3867 34.6339L27.8661 37.3461C28.1098 37.4958 28.4208 37.4709 28.6393 37.2962C28.8578 37.1215 28.9418 36.822 28.8494 36.5557L24.454 24.5258L24.6053 24.0516L28.2947 22.8702C28.6225 22.7621 28.8158 22.4293 28.7485 22.0965L27.9333 18.3444L30.5386 15.4992C30.7571 15.2413 30.7571 14.8586 30.5218 14.6007ZM9.97363 37.3295L8.62896 33.4193C8.56173 33.228 8.41045 33.0782 8.21716 33.0033C8.02386 32.9285 7.81376 32.9534 7.63727 33.0616L4.0739 35.2163L7.22547 26.589L7.58684 27.6955C7.6961 28.02 8.03227 28.2113 8.36843 28.1448L12.1587 27.3378L13.2512 28.3195L9.97363 37.3295ZM26.9164 35.2246L23.3531 33.0699C23.1766 32.9617 22.9665 32.9451 22.7732 33.0116C22.5799 33.0782 22.4286 33.228 22.3614 33.4276L21.0167 37.3378L17.7223 28.3278L18.8148 27.3461L22.6051 28.1531C22.9412 28.228 23.2774 28.0283 23.3867 27.7038L23.748 26.5973L26.9164 35.2246ZM26.6979 17.7038C26.555 17.8619 26.4962 18.0782 26.5382 18.2862L27.2946 21.7887L23.8573 22.8869C23.6556 22.9534 23.4875 23.1115 23.4203 23.3195L23.0925 24.3178L22.3109 26.7221L18.7728 25.9734C18.5627 25.9318 18.3442 25.99 18.1845 26.1314L15.5036 28.5275L12.8226 26.1231C12.6966 26.015 12.5369 25.9484 12.3688 25.9484C12.3184 25.9484 12.2764 25.9567 12.2259 25.9651L8.68779 26.7138L7.9062 24.3095L7.57844 23.3111C7.51121 23.1115 7.35153 22.9451 7.14142 22.8785L3.71253 21.7887L4.4689 18.2862C4.51092 18.0782 4.45209 17.8619 4.30922 17.7038L1.88883 15.0499L4.31763 12.396C4.4605 12.2379 4.51933 12.0216 4.4773 11.8136L3.72093 8.31114L7.15823 7.21297C7.35993 7.14642 7.52801 6.98835 7.59525 6.78037L8.69619 3.3777L12.2343 4.12646C12.4445 4.16805 12.663 4.10982 12.8226 3.96839L15.5036 1.57238L18.1845 3.97671C18.3442 4.11814 18.5627 4.17637 18.7728 4.13478L22.3109 3.38602L23.4203 6.78869C23.4875 6.98836 23.6472 7.15474 23.8573 7.22129L27.2946 8.31946L26.5382 11.822C26.4962 12.0299 26.555 12.2463 26.6979 12.4043L29.1183 15.0499L26.6979 17.7038Z" fill="#C470ED"/>
+                    <path d="M15.5036 5.39917C9.94008 5.39917 5.41864 9.87504 5.41864 15.3825C5.41864 20.89 9.94008 25.3659 15.5036 25.3659C21.0672 25.3659 25.5886 20.89 25.5886 15.3825C25.5886 9.87504 21.0672 5.39917 15.5036 5.39917ZM15.5036 24.0348C10.688 24.0348 6.76331 20.1496 6.76331 15.3825C6.76331 10.6155 10.688 6.73029 15.5036 6.73029C20.3192 6.73029 24.244 10.6155 24.244 15.3825C24.244 20.1496 20.3192 24.0348 15.5036 24.0348Z" fill="#C470ED"/>
+                    <path d="M19.2603 10.4409L13.4866 16.0981L11.747 14.3926C11.2259 13.8851 10.3771 13.8851 9.84764 14.3926L8.78031 15.4325C8.52819 15.6821 8.38531 16.0149 8.38531 16.3726C8.38531 16.7304 8.52819 17.0632 8.78031 17.3127L12.537 20.9899C12.7975 21.2479 13.1421 21.3726 13.4866 21.3726C13.8312 21.3726 14.1758 21.2479 14.4363 20.9899L22.227 13.3693C22.4791 13.1197 22.622 12.787 22.622 12.4292C22.622 12.0715 22.4791 11.7387 22.227 11.4891L21.1596 10.4492C20.6386 9.93337 19.7814 9.93337 19.2603 10.4409ZM15.033 18.5357L13.4866 20.0415L9.73838 16.3726L10.8057 15.341L13.016 17.5041C13.2765 17.762 13.6967 17.762 13.9573 17.5041L20.21 11.3893L19.7393 10.9151L21.2773 12.4209L15.033 18.5357Z" fill="#C470ED"/>
+                  </svg>
+                  <h4>Warrany Protection</h4>
+                  <p>Over 1 Month</p>
+            </div> 
+            <div class="free-shipping">
+                <svg class="svg-1" xmlns="http://www.w3.org/2000/svg" width="38" height="40" viewBox="0 0 38 40" fill="none">
+                    <path d="M37.1461 9.73696L19.4275 0.0809245C19.3289 0.0277886 19.2189 0 19.1073 0C18.9956 0 18.8856 0.0277886 18.787 0.0809245L1.06844 9.73696C0.958346 9.79469 0.865903 9.88173 0.80106 9.98864C0.73621 10.0956 0.701421 10.2185 0.700439 10.3439V29.656C0.700767 29.7808 0.734534 29.9031 0.798137 30.0101C0.861746 30.1169 0.952806 30.2043 1.06162 30.263L18.7801 39.919C18.8788 39.9722 18.9887 40 19.1004 40C19.2121 40 19.3221 39.9722 19.4207 39.919L37.1393 30.263C37.2481 30.2043 37.3391 30.1169 37.4027 30.0101C37.4664 29.9031 37.5001 29.7808 37.5004 29.656V10.3439C37.5008 10.2198 37.468 10.098 37.4056 9.99119C37.3433 9.88436 37.2536 9.79656 37.1461 9.73696ZM19.1004 1.47415L35.3878 10.3439L30.6175 12.9442L14.8957 3.76402L19.1004 1.47415ZM2.81303 10.3439L7.94459 7.58504L23.6595 16.7307L19.1004 19.2137L2.81303 10.3439ZM13.485 4.52961L29.2068 13.7097L25.0702 15.9651L9.35525 6.77807L13.485 4.52961ZM25.9766 17.0342L29.6838 15.0202V20.1655L28.2527 18.7309C28.1732 18.6509 28.0755 18.5921 27.9681 18.5595C27.8607 18.5269 27.7471 18.5217 27.6372 18.5442C27.5274 18.5667 27.4247 18.6163 27.3383 18.6885C27.2519 18.7608 27.1844 18.8535 27.1419 18.9585L25.9766 21.8001V17.0342ZM2.0634 11.4957L18.419 20.4138V38.1602L2.0634 29.2422V11.4957ZM19.7819 38.1602V20.4138L24.6136 17.7791V25.2694C24.6215 25.4238 24.6805 25.5712 24.781 25.6876C24.8815 25.8041 25.0178 25.8829 25.1679 25.9116C25.3181 25.9402 25.4734 25.917 25.6089 25.8455C25.7445 25.7741 25.8524 25.6587 25.9153 25.5177L28.0006 20.4207L29.8678 22.2967C29.9632 22.3941 30.085 22.4603 30.2176 22.4873C30.3504 22.5143 30.488 22.5006 30.613 22.4481C30.738 22.3955 30.8447 22.3065 30.9196 22.1923C30.9944 22.0782 31.034 21.944 31.0332 21.807V14.2753L36.1307 11.5164V29.2422L19.7819 38.1602Z" fill="#C470ED"/>
+                  </svg>
+                  <h4>Free Shipping</h4>
+                  <p>Order over <svg xmlns="http://www.w3.org/2000/svg" width="22" height="18" viewBox="0 0 22 18" fill="none">
+                    <path d="M18.2192 9.56242H16.9067V8.43742H18.2192C18.3932 8.43742 18.5601 8.37815 18.6832 8.27266C18.8063 8.16717 18.8754 8.0241 18.8754 7.87492C18.8754 7.72573 18.8063 7.58266 18.6832 7.47717C18.5601 7.37168 18.3932 7.31242 18.2192 7.31242H16.9067V3.23429C16.9067 3.08511 16.8375 2.94203 16.7145 2.83654C16.5914 2.73105 16.4245 2.67179 16.2504 2.67179C16.0764 2.67179 15.9095 2.73105 15.7864 2.83654C15.6633 2.94203 15.5942 3.08511 15.5942 3.23429V7.31242H10.2966L6.26804 2.88835C6.184 2.79593 6.06839 2.7283 5.93733 2.69493C5.80628 2.66155 5.66634 2.66409 5.53706 2.70219C5.40777 2.74029 5.2956 2.81205 5.2162 2.90745C5.1368 3.00284 5.09414 3.11711 5.09418 3.23429V7.31242H3.78168C3.60763 7.31242 3.44071 7.37168 3.31764 7.47717C3.19457 7.58266 3.12543 7.72573 3.12543 7.87492C3.12543 8.0241 3.19457 8.16717 3.31764 8.27266C3.44071 8.37815 3.60763 8.43742 3.78168 8.43742H5.09418V9.56242H3.78168C3.60763 9.56242 3.44071 9.62168 3.31764 9.72717C3.19457 9.83266 3.12543 9.97573 3.12543 10.1249C3.12543 10.2741 3.19457 10.4172 3.31764 10.5227C3.44071 10.6282 3.60763 10.6874 3.78168 10.6874H5.09418V14.7655C5.09418 14.9147 5.16332 15.0578 5.28639 15.1633C5.40946 15.2688 5.57638 15.328 5.75043 15.328C5.92448 15.328 6.0914 15.2688 6.21447 15.1633C6.33754 15.0578 6.40668 14.9147 6.40668 14.7655V10.6874H11.7043L15.7328 15.1115C15.7942 15.1789 15.8727 15.2335 15.9624 15.271C16.0521 15.3086 16.1506 15.3281 16.2504 15.328C16.3231 15.3282 16.3952 15.3177 16.4637 15.2971C16.5929 15.259 16.705 15.1874 16.7844 15.0921C16.8638 14.9968 16.9066 14.8826 16.9067 14.7655V10.6874H18.2192C18.3932 10.6874 18.5601 10.6282 18.6832 10.5227C18.8063 10.4172 18.8754 10.2741 18.8754 10.1249C18.8754 9.97573 18.8063 9.83266 18.6832 9.72717C18.5601 9.62168 18.3932 9.56242 18.2192 9.56242ZM15.5942 8.43742V9.56242H12.3449L11.3203 8.43742H15.5942ZM6.40668 4.86906L8.63136 7.31242H6.40668V4.86906ZM6.40668 9.56242V8.43742H9.65594L10.6805 9.56242H6.40668ZM15.5942 13.1308L13.3695 10.6874H15.5942V13.1308Z" fill="#C470ED"/>
+                  </svg>100,000</p>
+            </div>
+            <div class="support">
+                <svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none">
+                    <path d="M33.1861 21.5233C32.8093 21.1466 32.2983 20.9349 31.7655 20.9349C31.2327 20.9349 30.7217 21.1466 30.3449 21.5233L28.4501 23.4181C28.4461 23.4181 28.4447 23.4268 28.4414 23.4302L27.5037 24.3632C27.1937 24.6751 26.8251 24.9227 26.4192 25.0916C26.0131 25.2606 25.5777 25.3476 25.138 25.3476C24.6983 25.3476 24.2628 25.2606 23.8568 25.0916C23.4508 24.9227 23.0823 24.6751 22.7723 24.3632L16.1414 17.7323C15.8294 17.4222 15.5818 17.0535 15.4129 16.6474C15.2439 16.2413 15.157 15.8058 15.157 15.3659C15.157 14.9261 15.2439 14.4906 15.4129 14.0844C15.5818 13.6783 15.8294 13.3096 16.1414 12.9996L17.0751 12.0619L17.0838 12.0565L18.9786 10.1624C19.1652 9.97576 19.3133 9.75426 19.4143 9.51046C19.5153 9.26665 19.5673 9.0053 19.5673 8.74141C19.5673 8.47751 19.5153 8.21616 19.4143 7.97236C19.3133 7.72855 19.1652 7.50706 18.9786 7.32045L13.2935 1.63195C12.9107 1.26645 12.4018 1.0625 11.8725 1.0625C11.3433 1.0625 10.8344 1.26645 10.4516 1.63195L8.55742 3.52611L8.55273 3.53348C6.29682 5.79374 4.97397 8.82004 4.84715 12.0109C4.72033 15.2018 5.7988 18.3236 7.8682 20.7557V23.0899C7.77175 23.1281 7.67865 23.1669 7.58756 23.2065L5.80995 21.4288C5.68198 21.3078 5.51254 21.2404 5.33641 21.2404C5.16028 21.2404 4.99084 21.3078 4.86287 21.4288L2.02297 24.2687C1.89741 24.3943 1.82687 24.5647 1.82687 24.7423C1.82687 24.9199 1.89741 25.0902 2.02297 25.2158L3.80059 26.9934C3.7604 27.0845 3.72222 27.1776 3.68405 27.2741H1.17034C0.992695 27.2741 0.822335 27.3447 0.696723 27.4703C0.571118 27.5958 0.500549 27.7662 0.500549 27.9439V31.9626C0.500549 32.1402 0.571118 32.3106 0.696723 32.4362C0.822335 32.5618 0.992695 32.6324 1.17034 32.6324H3.68405C3.72222 32.7288 3.7604 32.8219 3.80059 32.9123L2.02297 34.6906C1.89741 34.8162 1.82687 34.9865 1.82687 35.1642C1.82687 35.3418 1.89741 35.5121 2.02297 35.6377L4.86287 38.4776C4.98848 38.6032 5.15881 38.6737 5.33641 38.6737C5.51401 38.6737 5.68434 38.6032 5.80995 38.4776L7.58756 36.7C7.67865 36.7395 7.77175 36.7784 7.8682 36.8165V39.3302C7.8682 39.5079 7.9388 39.6783 8.06438 39.8038C8.18997 39.9294 8.36036 40 8.53799 40H12.5567C12.7343 40 12.9047 39.9294 13.0303 39.8038C13.1559 39.6783 13.2265 39.5079 13.2265 39.3302V36.8165C13.3229 36.7784 13.416 36.7395 13.5071 36.7L15.2848 38.4776C15.4128 38.5986 15.5821 38.666 15.7583 38.666C15.9344 38.666 16.1038 38.5986 16.2318 38.4776L19.0717 35.6377C19.1973 35.5121 19.2678 35.3418 19.2678 35.1642C19.2678 34.9865 19.1973 34.8162 19.0717 34.6906L17.2941 32.9123C17.3343 32.8219 17.3725 32.7288 17.4107 32.6324H19.7442C22.1747 34.7052 25.2969 35.786 28.4887 35.6592C31.6805 35.5325 34.7074 34.2076 36.9658 31.9485L36.9745 31.9432L38.8686 30.0483C39.0552 29.8617 39.2033 29.6402 39.3042 29.3964C39.4053 29.1526 39.4573 28.8913 39.4573 28.6274C39.4573 28.3635 39.4053 28.1021 39.3042 27.8583C39.2033 27.6145 39.0552 27.393 38.8686 27.2064L33.1861 21.5233ZM11.4 2.57836C11.5276 2.45659 11.6972 2.38865 11.8735 2.38865C12.0499 2.38865 12.2195 2.45659 12.3471 2.57836L18.0302 8.26217C18.1556 8.38776 18.226 8.55795 18.226 8.73538C18.226 8.9128 18.1556 9.083 18.0302 9.20858L16.6103 10.6279L9.97937 3.99697L11.4 2.57836ZM19.2546 31.2928H16.9371C16.7953 31.2928 16.6571 31.3378 16.5426 31.4213C16.428 31.5048 16.3429 31.6226 16.2995 31.7576C16.1955 32.0927 16.0598 32.417 15.8943 32.7261C15.8247 32.8531 15.7983 32.9993 15.8188 33.1426C15.8393 33.2859 15.9058 33.4188 16.0081 33.5212L17.6504 35.1642L15.7583 37.057L14.1153 35.414C14.0128 35.3115 13.8799 35.2449 13.7364 35.2244C13.5929 35.2039 13.4467 35.2305 13.3196 35.3001C13.0106 35.4662 12.6862 35.6019 12.3511 35.7054C12.2162 35.7489 12.0986 35.834 12.0152 35.9486C11.9318 36.0631 11.8869 36.2013 11.8869 36.343V38.6604H9.20778V36.343C9.20784 36.2013 9.1629 36.0631 9.07951 35.9486C8.99613 35.834 8.87851 35.7489 8.74362 35.7054C8.40845 35.6019 8.08408 35.4662 7.7751 35.3001C7.64798 35.2305 7.50176 35.2039 7.3583 35.2244C7.21483 35.2449 7.08187 35.3115 6.9794 35.414L5.33641 37.057L3.44761 35.1642L5.08993 33.5212C5.19229 33.4188 5.25872 33.2859 5.27924 33.1426C5.29977 32.9993 5.2733 32.8531 5.20379 32.7261C5.03935 32.4168 4.90478 32.0925 4.80192 31.7576C4.75818 31.6215 4.67205 31.503 4.55612 31.4194C4.44018 31.3357 4.30053 31.2914 4.15759 31.2928H1.84012V28.6136H4.15759C4.29939 28.6136 4.43754 28.5686 4.55212 28.4851C4.66671 28.4016 4.75183 28.2838 4.79522 28.1488C4.89808 27.8139 5.03265 27.4896 5.19709 27.1803C5.2666 27.0533 5.29308 26.9072 5.27255 26.7638C5.25202 26.6205 5.18559 26.4877 5.08323 26.3853L3.44761 24.7423L5.33641 22.8495L6.9794 24.4924C7.08187 24.595 7.21483 24.6615 7.3583 24.682C7.50176 24.7026 7.64798 24.676 7.7751 24.6063C8.08408 24.4403 8.40845 24.3046 8.74362 24.2011C8.87851 24.1576 8.99613 24.0724 9.07951 23.9578C9.1629 23.8432 9.20784 23.7052 9.20778 23.5635V21.246H11.8869V23.5635C11.8869 23.7052 11.9318 23.8432 12.0152 23.9578C12.0986 24.0724 12.2162 24.1576 12.3511 24.2011C12.6862 24.3046 13.0106 24.4403 13.3196 24.6063C13.4467 24.676 13.5929 24.7026 13.7364 24.682C13.8799 24.6615 14.0128 24.595 14.1153 24.4924L15.7583 22.8495L17.6504 24.7423L16.0081 26.3853C15.9058 26.4877 15.8393 26.6205 15.8188 26.7638C15.7983 26.9072 15.8247 27.0533 15.8943 27.1803C16.0598 27.4895 16.1955 27.8138 16.2995 28.1488C16.3429 28.2838 16.428 28.4016 16.5426 28.4851C16.6571 28.5686 16.7953 28.6136 16.9371 28.6136H19.2546V31.2928ZM20.5942 31.5989V27.9439C20.5942 27.7662 20.5236 27.5958 20.398 27.4703C20.2724 27.3447 20.102 27.2741 19.9244 27.2741H17.4107C17.3725 27.1776 17.3343 27.0845 17.2941 26.9934L19.0717 25.2158C19.1973 25.0902 19.2678 24.9199 19.2678 24.7423C19.2678 24.5647 19.1973 24.3943 19.0717 24.2687L16.2318 21.4288C16.1062 21.3033 15.9359 21.2327 15.7583 21.2327C15.5807 21.2327 15.4103 21.3033 15.2848 21.4288L13.5071 23.2065C13.416 23.1669 13.3229 23.1281 13.2265 23.0899V20.5762C13.2265 20.3986 13.1559 20.2282 13.0303 20.1026C12.9047 19.977 12.7343 19.9064 12.5567 19.9064H8.90236C7.11811 17.8178 6.14973 15.1543 6.17605 12.4074C6.20244 9.66062 7.22173 7.0161 9.04569 4.96213L15.6612 11.5776L15.1923 12.0505C14.7556 12.4851 14.4089 13.0017 14.1724 13.5707C13.9359 14.1397 13.8142 14.7498 13.8142 15.3659C13.8142 15.9821 13.9359 16.5922 14.1724 17.1612C14.4089 17.7301 14.7556 18.2468 15.1923 18.6814L21.8232 25.3123C22.2574 25.7488 22.7735 26.0952 23.342 26.3318C23.9104 26.5683 24.5199 26.6902 25.1356 26.6906C25.7513 26.6909 26.361 26.5696 26.9297 26.3336C27.4983 26.0977 28.0148 25.7517 28.4494 25.3156L28.9256 24.8427L35.5418 31.4582C33.4871 33.2825 30.8418 34.3017 28.0943 34.3275C25.3468 34.3534 22.6828 33.3841 20.5942 31.5989ZM37.9215 29.1013L36.5023 30.5205L29.8714 23.8896L31.2913 22.471C31.4169 22.3454 31.5872 22.2749 31.7649 22.2749C31.9425 22.2749 32.1128 22.3454 32.2384 22.471L37.9215 28.1542C38.0471 28.2798 38.1177 28.4501 38.1177 28.6277C38.1177 28.8053 38.0471 28.9757 37.9215 29.1013Z" fill="#C470ED"/>
+                    <path d="M10.5473 26.6045C9.88495 26.6045 9.23747 26.8009 8.68677 27.1689C8.136 27.5369 7.70674 28.0599 7.45329 28.6719C7.19984 29.2838 7.13347 29.9571 7.26274 30.6068C7.39194 31.2564 7.71089 31.8531 8.17927 32.3215C8.64759 32.7898 9.2443 33.1088 9.89399 33.238C10.5436 33.3673 11.217 33.3009 11.8289 33.0474C12.4409 32.794 12.9638 32.3647 13.3319 31.814C13.6999 31.2633 13.8962 30.6158 13.8962 29.9534C13.8952 29.0656 13.542 28.2144 12.9142 27.5865C12.2863 26.9587 11.4352 26.6056 10.5473 26.6045ZM10.5473 31.9628C10.1499 31.9628 9.76138 31.8449 9.43097 31.6241C9.1005 31.4034 8.84296 31.0895 8.69092 30.7223C8.53881 30.3552 8.49903 29.9512 8.57652 29.5614C8.65408 29.1717 8.84544 28.8136 9.12649 28.5326C9.40746 28.2516 9.76553 28.0602 10.1553 27.9826C10.5451 27.9051 10.9491 27.9449 11.3163 28.097C11.6834 28.2491 11.9973 28.5066 12.218 28.8371C12.4388 29.1675 12.5567 29.556 12.5567 29.9534C12.5567 30.4863 12.3449 30.9974 11.9681 31.3742C11.5913 31.7511 11.0803 31.9628 10.5473 31.9628Z" fill="#C470ED"/>
+                    <path d="M23.3642 0.00622397C23.1882 -0.0179352 23.0098 0.0288292 22.8682 0.136223C22.7267 0.243616 22.6336 0.402852 22.6094 0.578892C22.5852 0.754932 22.632 0.933356 22.7394 1.07492C22.8468 1.21648 23.006 1.30958 23.1821 1.33374C27.2217 1.89856 30.9673 3.76439 33.8516 6.64863C36.7359 9.53294 38.6017 13.2785 39.1665 17.3182C39.1885 17.4785 39.2678 17.6254 39.3897 17.7317C39.5115 17.8381 39.6679 17.8968 39.8296 17.8969C39.8601 17.8969 39.8905 17.8949 39.9207 17.8909C40.0078 17.8789 40.0918 17.8499 40.1678 17.8055C40.2437 17.7611 40.3102 17.7022 40.3634 17.6321C40.4166 17.562 40.4555 17.4821 40.4778 17.397C40.5001 17.3118 40.5054 17.2232 40.4934 17.136C39.888 12.807 37.8886 8.79316 34.7978 5.70222C31.707 2.61133 27.6932 0.611725 23.3642 0.00622397Z" fill="#C470ED"/>
+                    <path d="M23.1575 5.40233C26.1316 5.92899 28.872 7.35677 31.0077 9.49245C33.1434 11.6282 34.5712 14.3686 35.0978 17.3426C35.1249 17.4979 35.206 17.6387 35.3266 17.7401C35.4473 17.8415 35.5999 17.8972 35.7576 17.8972C35.7964 17.8971 35.8352 17.8938 35.8734 17.8872C36.0484 17.8566 36.204 17.7578 36.3062 17.6125C36.4083 17.4671 36.4485 17.2872 36.418 17.1122C35.844 13.8667 34.2862 10.8761 31.9557 8.54558C29.6253 6.21499 26.6347 4.65705 23.3893 4.08285C23.3027 4.06764 23.2139 4.06963 23.128 4.08873C23.0421 4.10783 22.9609 4.14365 22.8888 4.19415C22.8168 4.24465 22.7555 4.30885 22.7082 4.38307C22.661 4.45729 22.6289 4.54008 22.6137 4.62672C22.5985 4.71336 22.6005 4.80214 22.6196 4.88801C22.6386 4.97388 22.6745 5.05514 22.725 5.12716C22.7755 5.19919 22.8396 5.26054 22.9139 5.30776C22.9881 5.35498 23.0709 5.38713 23.1575 5.40233Z" fill="#C470ED"/>
+                    <path d="M23.1166 9.49239C25.0258 9.96479 26.7699 10.9494 28.1606 12.3403C29.5512 13.7311 30.5358 15.4752 31.008 17.3845C31.0264 17.4723 31.0622 17.5555 31.1134 17.6292C31.1645 17.7029 31.2299 17.7656 31.3058 17.8135C31.3816 17.8614 31.4663 17.8936 31.5548 17.9082C31.6433 17.9227 31.7339 17.9194 31.8211 17.8983C31.9083 17.8772 31.9903 17.8388 32.0624 17.7854C32.1345 17.732 32.1951 17.6647 32.2406 17.5874C32.2862 17.5101 32.3157 17.4244 32.3276 17.3355C32.3394 17.2466 32.3332 17.1562 32.3094 17.0697C31.7784 14.9213 30.6707 12.9587 29.1058 11.3938C27.541 9.82902 25.5785 8.72133 23.4301 8.19032C23.3438 8.16762 23.2539 8.16233 23.1656 8.17479C23.0773 8.18724 22.9924 8.21725 22.9159 8.263C22.8393 8.30868 22.7727 8.36922 22.7198 8.44109C22.667 8.51289 22.6291 8.59454 22.6082 8.68121C22.5873 8.76795 22.5839 8.8579 22.5983 8.94591C22.6126 9.03392 22.6445 9.11818 22.6918 9.19373C22.7392 9.26928 22.8011 9.33459 22.8741 9.38589C22.947 9.4372 23.0295 9.47337 23.1166 9.49239Z" fill="#C470ED"/>
+                    <path d="M24.6128 18.5668C25.1427 18.5668 25.6607 18.4097 26.1013 18.1153C26.5419 17.8209 26.8853 17.4024 27.088 16.9129C27.2908 16.4233 27.3439 15.8847 27.2404 15.3649C27.1371 14.8453 26.8819 14.3679 26.5072 13.9932C26.1325 13.6185 25.6552 13.3634 25.1355 13.26C24.6157 13.1566 24.0771 13.2096 23.5876 13.4124C23.098 13.6152 22.6795 13.9586 22.3852 14.3992C22.0908 14.8398 21.9337 15.3578 21.9337 15.8876C21.9337 16.5982 22.2159 17.2797 22.7184 17.7821C23.2208 18.2845 23.9022 18.5668 24.6128 18.5668ZM24.6128 14.5481C24.8778 14.5481 25.1367 14.6266 25.357 14.7739C25.5773 14.921 25.749 15.1303 25.8504 15.375C25.9518 15.6198 25.9783 15.8891 25.9267 16.149C25.8749 16.4088 25.7474 16.6475 25.56 16.8349C25.3727 17.0222 25.134 17.1498 24.8742 17.2015C24.6143 17.2531 24.345 17.2266 24.1001 17.1253C23.8554 17.0239 23.6462 16.8521 23.499 16.6318C23.3518 16.4116 23.2732 16.1526 23.2732 15.8876C23.2732 15.5324 23.4144 15.1917 23.6656 14.9404C23.9168 14.6892 24.2575 14.5481 24.6128 14.5481Z" fill="#C470ED"/>
+                  </svg>
+                  <h4>24 / 7 Support</h4>
+                  <p>Dedicated support</p>
+            </div>
+        </div>
+
+
+
+         <!-- customers offer----- -->
+         <div class="customer-offer">
+            <div class="offer-1">
+                <h3>Buy 4 Get 1 Free Gift of your choice</h3>
+                <p>Customers who place an order of up to 4 items are automatically entitled to any other product of their choice as a “Gift”.</p>
+                <button class="offer-btn-2" type="button">Learn More</button>
+            </div>
+            <div class="offer-2">
+                <h3>Buy 9 Get 1 Free UNIQUE CUSTOM GIFT</h3>
+                <p>Customers who place an order of up to 9 items are automatically entitled to  “Custom Gift”.</p>
+                <button class="offer-btn-1" type="button">Learn More</button>
+            </div>
+         </div>
+         
+   </div> 
+
+
+
+
+
+
+   <!-- footer ---- -->
+   <footer>
+       <div id="footer-line">
+            <div class="footer-first-line">
+                <!-- first footer -->
+                <div class="logo"><a href="index.html">NINE FASHION</a></div>
+        <div class="frames">
+                   <div id="frame1">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="male.html">Male</a></li>
+                    </div>
+                   <div id="frame2">
+                      <li><a href="login.html">Login</a></li>
+                      <li><a href="female.html">Female</a></li>
+                    </div>
+                     <div id="frame3">
+                       <li><a href="signup.html">Sign Up</a></li>
+                       <li><a href="accessories.html">Accessories</a></li>
+                     </div>
+     <span ><a href="/" id="last-menu">PROPOSAL REQUEST</a></span>
+        
+       </div>
+                <div class="contact-info">
+                    <h6>Email</h6>
+                    <p>Join our newsletter@ gmail.com</p>
+                    <p>Join our newsletter@ gmail.com</p>
+                    <p>Join our newsletter@ gmail.com</p>
+            </div>
+            </div>
+            <!-- last footer -->
+            <div class="footer-last-line">
+                <p id="copyright">© 2023 Nine Fashion. All rights reserved.</p>
+                <div class="website-info">
+                    <p><a href="/">Privacy Policy</a></p>
+                    <p><a href="/">Terms of Service</a></p>
+                    <p><a href="/">Cookies Settings</a></p>
+                </div>
+                <div class="accessability">
+                    <a href="/"> <i class="fa fa-facebook"></i></a>
+                    <a href="/"><i class="fa fa-instagram"></i></a>
+                   <a href="/"> <i class="fa fa-twitter"></i></a>
+                   <a href="/"> <i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+       </div>     
+   </footer>
+    </body>
+</html>
